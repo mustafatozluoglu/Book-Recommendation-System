@@ -1,4 +1,3 @@
-
 import java.io.IOException;
 
 import org.jsoup.Jsoup;
@@ -13,11 +12,15 @@ public class FetchBook {
         Elements allBooks = bestSeller.select("div.name.ellipsis");
 
         int count = 0;
-
         while (allBooks.hasText()){
-
             System.out.println(count + " " + allBooks.get(count).text());
             count++;
         }
+        
+        String bookLink;
+        int startIndex = bookLink.indexOf("https");
+	int lastIndex = bookLink.indexOf("html") + 4;
+	bookLink=bookLink.substring(startIndex, lastIndex);
+	System.out.println(bookLink);
     }
 }
