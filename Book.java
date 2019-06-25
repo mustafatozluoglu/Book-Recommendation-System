@@ -100,10 +100,10 @@ public class Book {
         else {
             token = token.substring(1, token.length() - 1);
             pageCount = Integer.parseInt(token); //Needs validation
+            token = tokenizer.nextToken();
         }
         //System.out.println(token);
         sb.append("\nPage count: " + pageCount);
-        token = tokenizer.nextToken();
         //System.out.println(token);
         sb.append("\nCover: " + token);
         token = tokenizer.nextToken();
