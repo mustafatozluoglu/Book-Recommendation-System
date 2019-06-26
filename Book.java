@@ -23,28 +23,86 @@ public class Book {
         votes = bookVotes;
     }
 
-    public void setName(String bookName) {        name = bookName;    }
-    public void setPublisher(String bookPublisher) {        publisher = bookPublisher;    }
-    public void setauthor(String bookAuthor) {        author = bookAuthor;    }
-    public void setPriceOther(int bookPriceOther) {        priceOther = bookPriceOther;    }
-    public void setPriceSite(int bookPriceSite) {        priceSite = bookPriceSite;    }
-    public void setPagecount(int bookPageCount) {        pageCount = bookPageCount;    }
-    public void setSaleCount(int bookSaleCount) {	saleCount = bookSaleCount; }
-    public void setGenre(String bookGenre) { genre = bookGenre; }
-    public void setPoints(int bookPoint) { point = bookPoint; }
-    public void setVotes(int bookVotes) { votes = bookVotes; }
+    public void setName(String bookName) {
+        name = bookName;
+    }
 
-    public String getName() {        return name;    }
-    public String getPublisher() {        return publisher;    }
-    public String getAuthor() {        return author;    }
-    public double getPriceOther() {        return priceOther;    }
-    public double getPriceSite() {        return priceSite;    }
-    public int getPageCount() {        return pageCount;    }
-    public int getSaleCount() { return saleCount; }
-    public String getGenre() { return genre; }
-    public int getPoint() { return point; }
-    public int getVotes() { return votes; }
-    
+    public void setPublisher(String bookPublisher) {
+        publisher = bookPublisher;
+    }
+
+    public void setauthor(String bookAuthor) {
+        author = bookAuthor;
+    }
+
+    public void setPriceOther(int bookPriceOther) {
+        priceOther = bookPriceOther;
+    }
+
+    public void setPriceSite(int bookPriceSite) {
+        priceSite = bookPriceSite;
+    }
+
+    public void setPagecount(int bookPageCount) {
+        pageCount = bookPageCount;
+    }
+
+    public void setSaleCount(int bookSaleCount) {
+        saleCount = bookSaleCount;
+    }
+
+    public void setGenre(String bookGenre) {
+        genre = bookGenre;
+    }
+
+    public void setPoints(int bookPoint) {
+        point = bookPoint;
+    }
+
+    public void setVotes(int bookVotes) {
+        votes = bookVotes;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getPublisher() {
+        return publisher;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public double getPriceOther() {
+        return priceOther;
+    }
+
+    public double getPriceSite() {
+        return priceSite;
+    }
+
+    public int getPageCount() {
+        return pageCount;
+    }
+
+    public int getSaleCount() {
+        return saleCount;
+    }
+
+    public String getGenre() {
+        return genre;
+    }
+
+    public int getPoint() {
+        return point;
+    }
+
+    public int getVotes() {
+        return votes;
+    }
+
 
     public String toString() {
         return "--------------------------------------------\n"
@@ -55,15 +113,15 @@ public class Book {
                 + "\nPrice in Kitapyurdu: " + priceSite
                 + "\nTotal number of pages: " + pageCount
                 + "\nTotal number of sales: " + saleCount
-        		+ "\nGenre of book: " + genre
-        		+ "\nTotal point of users: " + point
-        		+ "\nTotal votes: " + votes
+                + "\nGenre of book: " + genre
+                + "\nTotal point of users: " + point
+                + "\nTotal votes: " + votes
                 + "\n--------------------------------------------\n";
     }
-    
+
     public String toData() {
-    	return "'"+name+"','"+publisher+"','"+author+"',"+priceOther+","+priceSite+","+pageCount+","+saleCount+",'"+genre+"',"+point+","+votes+",";
+        return "'" + name + "','" + publisher + "','" + author + "'," + priceOther + "," + priceSite + "," + pageCount + "," + saleCount + ",'" + genre + "'," + point + "," + votes + ",";
     }
-    	
+
 }
 
