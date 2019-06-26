@@ -52,13 +52,24 @@ public class FetchBook {
                 //Price is stored such as "27,50"
                 tempForParsing = bookURL.select("div.list_price span[class=value]").text();
                 tempForParsing = tempForParsing.replaceAll(",", ".");
-                priceOther = Double.parseDouble(tempForParsing);
+                if (!tempForParsing.equals(""))
+                    priceOther = Double.parseDouble(tempForParsing);
+                else
+                    priceOther = 0;
                 priceSite = Double.parseDouble(bookURL.select("div[itemprop=offers] meta[itemprop=price]").attr("content"));
 
                 //Could only get number of stars
-                point = Integer.parseInt(bookURL.select("meta[itemprop=ratingValue]").attr("content"));
+                String pointhelper = bookURL.select("meta[itemprop=ratingValue]").attr("content");
+                if (!pointhelper.equals(""))
+                    point = Integer.parseInt(pointhelper);
+                else
+                    point = 0;
 
-                pageCount = Integer.parseInt(bookURL.select("span[itemprop=numberOfPages]").text());
+                String pageCountHelper = bookURL.select("span[itemprop=numberOfPages]").text();
+                if (!pageCountHelper.equals(""))
+                    pageCount = Integer.parseInt(pageCountHelper);
+                else
+                    pageCount = 0;
 
                 tempForParsing = bookURL.select("div.grid_6.omega.alpha.section").text();
                 tempForParsing = tempForParsing.replaceAll("\\D+", "");
@@ -66,7 +77,11 @@ public class FetchBook {
                     tempForParsing = tempForParsing.substring(0, 6);
                 saleCount = Integer.parseInt(tempForParsing);
 
-                votes = Integer.parseInt(bookURL.select("meta[itemprop=ratingCount]").attr("content"));
+                String votesHelper = bookURL.select("meta[itemprop=ratingCount]").attr("content");
+                if (!votesHelper.equals(""))
+                    votes = Integer.parseInt(votesHelper);
+                else
+                    votes = 0;
                 Book newest = new Book(name, publisher, author, priceOther, priceSite, pageCount, saleCount, genre, point, votes);
                 booklist.add(newest);
                 System.out.println(newest);
