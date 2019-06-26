@@ -6,10 +6,6 @@ import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 import org.jsoup.nodes.Element;
 
-/* Last change date 25.06.2019 22:42
- * Could not retrieve overall score of votes
- */
-
 public class FetchBook {
     public static void main(String args[]) throws IOException {
     	
@@ -36,10 +32,10 @@ public class FetchBook {
             for (int index = 0; index < allBooks.size(); index++) {
                 //Temporary variables to make code more readable
                 String name, publisher, author, genre;
-                double priceOther, priceSite, point;
-                int pageCount, saleCount, votes;
+                double priceOther, priceSite;
+                int pageCount, saleCount, votes, point;
                 
-                Element currentBook = allBooks.first();
+                Element currentBook = allBooks.get(index);
                 String urlOfBook = currentBook.select("div.name").select("a[href]").attr("href");
                 //Create new document to get datas from books individual site
                 Document bookURL = Jsoup.connect(urlOfBook).get();
@@ -58,15 +54,28 @@ public class FetchBook {
                 tempForParsing = tempForParsing.replaceAll(",",".");
                 priceOther = Double.parseDouble(tempForParsing);
                 priceSite =  Double.parseDouble(bookURL.select("div[itemprop=offers] meta[itemprop=price]").attr("content"));
+
+                //Could only get number of stars
+                point = Integer.parseInt(bookURL.select("meta[itemprop=ratingValue]").attr("content"));
                 
-                tempForParsing = bookURL.select("div.f1.mg-r-10.mg-b-5").text();
-                //point = Double.parseDouble(.text());
-                System.out.println(tempForParsing);
-                //System.out.println(bookURL);
+                pageCount = Integer.parseInt(bookURL.select("span[itemprop=numberOfPages]").text());
+                
+                tempForParsing = bookURL.select("div.grid_6.omega.alpha.section").text();
+                tempForParsing = tempForParsing.replaceAll("\\D+","");
+                saleCount = Integer.parseInt(tempForParsing);
+                
+                votes = Integer.parseInt(bookURL.select("meta[itemprop=ratingCount]").attr("content"));
+                Book newest = new Book(name,publisher,author,priceOther,priceSite,pageCount,saleCount,genre,point,votes);
+                booklist.add(newest);
+                System.out.println(newest);
+                System.out.println(newest.toData());
 
             }//end of fetching books from site 
         } 
-
+        
+        BookComparator<Book> comparator = new BookComparator<>();
+        booklist.sort(comparator);
+        
 
     }//end of main method
 }

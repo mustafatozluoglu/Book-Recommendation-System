@@ -7,15 +7,16 @@ public class Book {
     private int pageCount;
     private int saleCount;
     private String genre;
-    private double point;
+    private int point;
     private int votes;
 
-    public Book(String bookName, String bookPublisher, String bookAuthor, double bookPriceOther, double bookPriceSite, int bookSaleCount, String bookGenre, double bookPoint, int bookVotes) {
+    public Book(String bookName, String bookPublisher, String bookAuthor, double bookPriceOther, double bookPriceSite, int bookPageCount, int bookSaleCount, String bookGenre, int bookPoint, int bookVotes) {
         name = bookName;
         publisher = bookPublisher;
         author = bookAuthor;
         priceOther = bookPriceOther;
         priceSite = bookPriceSite;
+        pageCount = bookPageCount;
         saleCount = bookSaleCount;
         genre = bookGenre;
         point = bookPoint;
@@ -30,7 +31,7 @@ public class Book {
     public void setPagecount(int bookPageCount) {        pageCount = bookPageCount;    }
     public void setSaleCount(int bookSaleCount) {	saleCount = bookSaleCount; }
     public void setGenre(String bookGenre) { genre = bookGenre; }
-    public void setPoints(double bookPoint) { point = bookPoint; }
+    public void setPoints(int bookPoint) { point = bookPoint; }
     public void setVotes(int bookVotes) { votes = bookVotes; }
 
     public String getName() {        return name;    }
@@ -41,7 +42,7 @@ public class Book {
     public int getPageCount() {        return pageCount;    }
     public int getSaleCount() { return saleCount; }
     public String getGenre() { return genre; }
-    public double getPoint() { return point; }
+    public int getPoint() { return point; }
     public int getVotes() { return votes; }
     
 
@@ -52,11 +53,17 @@ public class Book {
                 + "\nAuthor: " + author
                 + "\nPrice in other sites: " + priceOther
                 + "\nPrice in Kitapyurdu: " + priceSite
+                + "\nTotal number of pages: " + pageCount
                 + "\nTotal number of sales: " + saleCount
         		+ "\nGenre of book: " + genre
         		+ "\nTotal point of users: " + point
         		+ "\nTotal votes: " + votes
                 + "\n--------------------------------------------\n";
     }
+    
+    public String toData() {
+    	return "'"+name+"','"+publisher+"','"+author+"',"+priceOther+","+priceSite+","+pageCount+","+saleCount+",'"+genre+"',"+point+","+votes+",";
+    }
+    	
 }
 
