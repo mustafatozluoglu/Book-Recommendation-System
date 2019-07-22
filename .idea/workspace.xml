@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="305ca17e-1552-4fba-a7bf-75ba23f6e711" name="Default Changelist" comment="Fixed &quot;saleCount&quot; Exception.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/Book.java" afterDir="false" />
+    <list default="true" id="305ca17e-1552-4fba-a7bf-75ba23f6e711" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/Book.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FetchBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/FetchBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FetchBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/FetchBook.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,11 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FetchBook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="894">
-              <caret line="86" column="16" selection-start-line="86" selection-start-column="16" selection-end-line="86" selection-end-column="16" />
+            <state relative-caret-position="235">
+              <caret line="99" column="34" selection-start-line="99" selection-start-column="34" selection-end-line="99" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="122" column="130" selection-start-line="122" selection-start-column="130" selection-end-line="122" selection-end-column="130" />
+            <state relative-caret-position="1052">
+              <caret line="122" column="167" selection-start-line="122" selection-start-column="167" selection-end-line="122" selection-end-column="167" />
               <folding>
                 <element signature="e#857#858#0" expanded="true" />
                 <element signature="e#888#889#0" expanded="true" />
@@ -123,8 +123,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/BookComparator.java" />
-        <option value="$PROJECT_DIR$/FetchBook.java" />
         <option value="$PROJECT_DIR$/Book.java" />
+        <option value="$PROJECT_DIR$/FetchBook.java" />
       </list>
     </option>
   </component>
@@ -227,7 +227,7 @@
       <workItem from="1561411027186" duration="241000" />
       <workItem from="1561456045365" duration="6886000" />
       <workItem from="1561578978180" duration="6713000" />
-      <workItem from="1563830509648" duration="923000" />
+      <workItem from="1563830509648" duration="3106000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed &quot;saleCount&quot; Exception.">
       <created>1561581452471</created>
@@ -236,11 +236,18 @@
       <option name="project" value="LOCAL" />
       <updated>1561581452471</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fixed toData method for weka analyse">
+      <created>1563831529384</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1563831529384</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17276000" />
+    <option name="totallyTimeSpent" value="19459000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -331,7 +338,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fixed &quot;saleCount&quot; Exception." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed &quot;saleCount&quot; Exception." />
+    <MESSAGE value="Fixed toData method for weka analyse" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed toData method for weka analyse" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -383,27 +391,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BookComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FetchBook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="894">
-          <caret line="86" column="16" selection-start-line="86" selection-start-column="16" selection-end-line="86" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="122" column="130" selection-start-line="122" selection-start-column="130" selection-end-line="122" selection-end-column="130" />
+        <state relative-caret-position="1052">
+          <caret line="122" column="167" selection-start-line="122" selection-start-column="167" selection-end-line="122" selection-end-column="167" />
           <folding>
             <element signature="e#857#858#0" expanded="true" />
             <element signature="e#888#889#0" expanded="true" />
@@ -445,6 +436,23 @@
             <element signature="e#2243#2244#0" expanded="true" />
             <element signature="e#2272#2273#0" expanded="true" />
             <element signature="e#2300#2301#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FetchBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="99" column="34" selection-start-line="99" selection-start-column="34" selection-end-line="99" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

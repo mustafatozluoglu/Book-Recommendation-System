@@ -1,3 +1,5 @@
+import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 
@@ -19,6 +21,7 @@ public class FetchBook {
 
         //Arraylist to store all books
         ArrayList<Book> booklist = new ArrayList<>();
+        ArrayList<String> bookData = new ArrayList<>();
 
         for (int webPageCount = 1; webPageCount < totalPageCount; webPageCount++) {
 
@@ -84,6 +87,7 @@ public class FetchBook {
                     votes = 0;
                 Book newest = new Book(name, publisher, author, priceOther, priceSite, pageCount, saleCount, genre, point, votes);
                 booklist.add(newest);
+                bookData.add(newest.toData());
                 System.out.println(newest);
                 System.out.println(newest.toData());
 
@@ -93,6 +97,25 @@ public class FetchBook {
         BookComparator<Book> comparator = new BookComparator<>();
         booklist.sort(comparator);
 
+        writeDataToFile(bookData);
 
     }//end of main method
+
+    public static void writeDataToFile(ArrayList<String> list) throws IOException {
+        File file = new File("book.data");
+
+        if (!file.exists()) {
+            file.createNewFile();
+        }
+
+        FileWriter fileWriter = new FileWriter(file);
+
+        for (String line : list) {
+            fileWriter.write(line + "\n");
+        }
+
+
+    }
+
+
 }
