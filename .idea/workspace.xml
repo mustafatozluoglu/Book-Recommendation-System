@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="305ca17e-1552-4fba-a7bf-75ba23f6e711" name="Default Changelist" comment="Fixed &quot;saleCount&quot; Exception.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FetchBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/FetchBook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FetchBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/FetchBook.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,11 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FetchBook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="69" column="64" selection-start-line="69" selection-start-column="64" selection-end-line="69" selection-end-column="64" />
+            <state relative-caret-position="894">
+              <caret line="86" column="16" selection-start-line="86" selection-start-column="16" selection-end-line="86" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="115" column="45" lean-forward="true" selection-start-line="115" selection-start-column="45" selection-end-line="115" selection-end-column="45" />
+            <state relative-caret-position="440">
+              <caret line="122" column="130" selection-start-line="122" selection-start-column="130" selection-end-line="122" selection-end-column="130" />
               <folding>
                 <element signature="e#857#858#0" expanded="true" />
                 <element signature="e#888#889#0" expanded="true" />
@@ -108,6 +108,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>int</find>
+      <find>matematik</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -122,8 +123,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/BookComparator.java" />
-        <option value="$PROJECT_DIR$/Book.java" />
         <option value="$PROJECT_DIR$/FetchBook.java" />
+        <option value="$PROJECT_DIR$/Book.java" />
       </list>
     </option>
   </component>
@@ -133,7 +134,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="110" />
     <option name="y" value="43" />
     <option name="width" value="1545" />
@@ -144,17 +145,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="476-Book-Recommendation-System" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -162,6 +152,17 @@
             <path>
               <item name="476-Book-Recommendation-System" type="b2602c69:ProjectViewProjectNode" />
               <item name="476-Book-Recommendation-System" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="476-Book-Recommendation-System" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
           </expand>
           <select />
@@ -225,7 +226,8 @@
       <workItem from="1561410388719" duration="614000" />
       <workItem from="1561411027186" duration="241000" />
       <workItem from="1561456045365" duration="6886000" />
-      <workItem from="1561578978180" duration="4864000" />
+      <workItem from="1561578978180" duration="6713000" />
+      <workItem from="1563830509648" duration="923000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed &quot;saleCount&quot; Exception.">
       <created>1561581452471</created>
@@ -238,7 +240,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14504000" />
+    <option name="totallyTimeSpent" value="17276000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -250,7 +252,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="110" y="43" width="3090" height="1757" extended-state="7" />
+    <frame x="110" y="43" width="3090" height="1757" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
@@ -258,17 +260,17 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" weight="0.24450366" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.1865423" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" order="0" weight="0.3296199" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.3296199" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.32896462" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32949933" />
       <window_info anchor="bottom" id="Database Changes" order="2" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.5006662" side_tool="true" weight="0.47771952" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" sideWeight="0.49933377" visible="true" weight="0.47771952" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.65072083" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" sideWeight="0.49933377" visible="true" weight="0.49279162" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.650203" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.3296199" />
@@ -286,6 +288,46 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fixed &quot;saleCount&quot; Exception." />
@@ -328,6 +370,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.classpath">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.project">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/İndirilenler/jsoup-1.12.1.jar!/org/jsoup/select/Elements.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BookComparator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="62">
@@ -335,16 +390,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.classpath">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.project">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/FetchBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="894">
+          <caret line="86" column="16" selection-start-line="86" selection-start-column="16" selection-end-line="86" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="115" column="45" lean-forward="true" selection-start-line="115" selection-start-column="45" selection-end-line="115" selection-end-column="45" />
+        <state relative-caret-position="440">
+          <caret line="122" column="130" selection-start-line="122" selection-start-column="130" selection-end-line="122" selection-end-column="130" />
           <folding>
             <element signature="e#857#858#0" expanded="true" />
             <element signature="e#888#889#0" expanded="true" />
@@ -386,23 +445,6 @@
             <element signature="e#2243#2244#0" expanded="true" />
             <element signature="e#2272#2273#0" expanded="true" />
             <element signature="e#2300#2301#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/İndirilenler/jsoup-1.12.1.jar!/org/jsoup/select/Elements.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FetchBook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="69" column="64" selection-start-line="69" selection-start-column="64" selection-end-line="69" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

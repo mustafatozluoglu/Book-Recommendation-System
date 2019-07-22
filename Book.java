@@ -120,7 +120,7 @@ public class Book {
     }
 
     public String toData() {
-        return "'" + name + "','" + publisher + "','" + author + "'," + priceOther + "," + priceSite + "," + pageCount + "," + saleCount + ",'" + genre + "'," + point + "," + votes + ",";
+        return name + "," + publisher + "," + author + "," + priceOther + "," + priceSite + "," + pageCount + "," + saleCount + "," + genre + "," + point + "," + votes;
     }
 
 }
