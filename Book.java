@@ -120,7 +120,19 @@ public class Book {
     }
 
     public String toData() {
-        return "'"+name + "','" + publisher + "','" + author + "'," + priceOther + "," + priceSite + "," + pageCount + "," + saleCount + ",'" + genre + "'," + point + "," + votes;
+        if (name.contains("'")) {
+            name = name.replaceAll("'","");
+        }
+        if (publisher.contains("'")) {
+            publisher = publisher.replaceAll("'", "");
+        }
+        if (author.contains("'")) {
+            author = author.replaceAll("'", "");
+        }
+        if (genre.contains("'")) {
+            genre = genre.replaceAll("'", "");
+        }
+        return "'" + name + "','" + publisher + "','" + author + "'," + priceOther + "," + priceSite + "," + pageCount + "," + saleCount + ",'" + genre + "'," + point + "," + votes;
     }
 
 }

@@ -14,8 +14,8 @@
 @data
 'Bir Ömür Nasıl Yaşanır? & Hayatta Doğru Seçimler İçin Öneriler','KRONİK KİTAP','Prof. Dr. İlber Ortaylı',27.5,16.49,288,55624,' Kişisel Gelişim',5,2025
 'Abartma Tozu','TAZE KİTAP','Şermin Yaşar',34.0,23.12,160,6059,' Hikaye',5,139
-'Bir İdam Mahkumunun Son Günü (Karton Kapak)','TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI','Victor Hugo',10.0,6.5,136,40870,' Fransızca',5,3085
-'Fahrenheit 451','İTHAKİ YAYINLARI','Ray Bradbury',24.0,11.5,208,67556,' İngilizce',4,5646
+'Bir İdam Mahkumunun Son Günü (Karton Kapak)','TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI','Victor Hugo',10.0,6.5,136,40870,' Fransızca',5,3086
+'Fahrenheit 451','İTHAKİ YAYINLARI','Ray Bradbury',24.0,11.5,208,67556,' İngilizce',4,5647
 'Pucca Günlük 7 / Peki Ya Şimdi ?','İNDİGO KİTAP','Pucca',27.0,17.55,216,2008,' Anlatı',3,119
 'Pia Mater','ELMA YAYINEVİ','Serkan Karaismailoğlu',42.0,27.01,424,5158,' Roman (yerli)',5,157
 'Hayvan Çiftliği (Ciltsiz)','CAN YAYINLARI','George Orwell',20.0,13.0,152,106134,' İngilizce',5,12829
@@ -32,14 +32,14 @@
 'Simyacı (Ciltsiz)','CAN YAYINLARI','Paulo Coelho',23.5,15.27,184,93272,' Portekizce',5,10849
 '1984','CAN YAYINLARI','George Orwell',35.0,22.75,352,104535,' İngilizce',5,13063
 'Bir İdam Mahkumunun Son Günü (Cep Boy)','KARBON KİTAPLAR','Victor Hugo',7.0,2.9,101,2264,' Roman (çeviri)',5,63
-'Beyaz Zambaklar Ülkesinde (Atatürkün askerlere tavsiye ettiği kitap)','KARBON KİTAPLAR','Grigory Petrov',7.41,4.59,100,11967,'Roman(çeviri)',5,553
+'Beyaz Zambaklar Ülkesinde (Atatürkün askerlere tavsiye ettiği kitap)','KARBON KİTAPLAR','Grigory Petrov',7.41,4.59,100,11967,' Roman (çeviri)',5,553
 'İçimizdeki Şeytan','YAPI KREDİ YAYINLARI','Sabahattin Ali',9.5,6.29,267,81229,' Roman (yerli)',5,7922
 'Bilinmeyen Bir Kadının Mektubu (Karton Kapak)','TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI','Stefan Zweig',6.0,3.9,68,86264,' Almanca',5,10123
 'Bülbülü Öldürmek','SEL YAYINCILIK','Harper Lee',24.0,16.32,355,50344,' İngilizce',5,4966
 'Sabahattin Ali Seti (3 Kitap)','KARBON KİTAPLAR','Sabahattin Ali',31.48,12.12,727,18454,' Roman (yerli)',5,622
 'Sakın Oraya Gitme','CAN YAYINLARI KAMPANYA','Yekta Kopan',16.0,7.2,136,4612,' Hikaye (yerli)',4,414
 'Satranç (Karton Kapak)','TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI','Stefan Zweig',7.0,4.55,77,60316,' Almanca',5,6777
-'Bir İdam Mahkumunun Son Günü','KARBON KİTAPLAR','Victor Hugo',9.26,4.63,85,6305,' Roman (çeviri)',5,229
+'Bir İdam Mahkumunun Son Günü','KARBON KİTAPLAR','Victor Hugo',9.26,4.63,85,6305,' Roman (çeviri)',5,230
 'Camdaki Kız','DOĞAN KİTAP','Dr. Gülseren Budayıcıoğlu',35.5,23.43,352,7318,' Roman (yerli)',5,250
 'Almanak 2014 / Türkiyede ve Dünyada Fotoğraflarla Bir Yıl','NTV YAYINLARI','Kollektif',50.42,20.83,246,1439,' Yıllık & Antoloji',5,118
 'Küçük Prens','KARBON KİTAPLAR','Antoine De Saint Exupery',8.33,5.33,117,305006,' Hikaye, Roman & Masal',5,2816
@@ -145,7 +145,7 @@
 'Sunum Sırları','NTV YAYINLARI','Martin Manser',14.77,7.38,127,1158,' İş Dünyası',4,61
 'Morgue Sokağı Cinayetleri (Cep Boy)','KARBON KİTAPLAR','Edgar Allan Poe',7.0,2.9,75,538,'',5,15
 'Bağırmayan Anneler','HAYY KİTAP','Hatice Kübra Tongar',24.07,13.12,176,48417,' Annelik-Babalık-Aile',4,2118
-'Kuyucaklı Yusuf (Cep Boy)','KARBON KİTAPLAR','Sabahattin Ali',7.0,2.9,293,876,' Roman (yerli)',5,28
+'Kuyucaklı Yusuf (Cep Boy)','KARBON KİTAPLAR','Sabahattin Ali',7.0,2.9,293,876,' Roman (yerli)',5,29
 'Öteki Kabuslar','CAN YAYINLARI KAMPANYA','Yiğit Bener',15.0,6.75,128,466,' Hikaye (yerli)',4,32
 'Dedemin Bakkalı','TAZE KİTAP','Şermin Yaşar',35.0,22.05,200,31862,' Hikaye',5,2058
 'Osmanlı Devleti’nin Kısa Sosyal Tarihi','TİMAŞ YAYINLARI','Prof. Dr. Kemal H. Karpat',35.0,23.8,256,260,' Sosyal Tarih',5,11
@@ -193,7 +193,7 @@
 'Öteki (Cep Boy)','KARBON KİTAPLAR','Fyodor Mihayloviç Dostoyevski',7.0,2.9,191,434,' Roman (çeviri)',5,18
 'Halep','CAN YAYINLARI KAMPANYA','Serhat Öztürk',16.67,7.5,176,485,' Diğer',5,40
 'Acemi Eğitimi','CAN YAYINLARI KAMPANYA','Can Kozanoğlu',24.5,12.25,256,621,' Anı (hatırat)',4,58
-'Sokratesin Savunması (Karton Kapak)','TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI','Platon(Eflatun)',12.0,7.8,200,12190,' Eski Yunanca',5,1016
+'Sokratesin Savunması (Karton Kapak)','TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI','Platon(Eflatun)',12.0,7.8,200,12190,' Eski Yunanca',5,1017
 'Güneşi Uyandıralım','CAN YAYINLARI','Jose Mauro De Vasconcelos',29.5,19.17,272,281026,' Portekizce',5,2608
 'Denemeler / Montaigne (Ciltsiz)','TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI','Michel de Montaigne',12.96,8.42,314,15201,' Fransızca',5,1386
 'Kesik Hava','CAN YAYINLARI KAMPANYA','Murat Yalçın',17.0,7.65,160,513,' Hikaye (yerli)',4,42
@@ -332,7 +332,7 @@
 'Seni Anlıyorum Anne','YEDİVEREN YAYINLARI','Dilek Cesur',25.0,13.0,256,2122,' Annelik-Babalık-Aile',5,40
 'İvan İlyiçin Ölümü (Cep Boy)','KARBON KİTAPLAR','Lev N. Tolstoy',7.0,2.9,92,94,' Roman (çeviri)',5,5
 'Ya Nasip','YEDİVEREN YAYINLARI','Osman Sungur Yeken',25.0,15.0,256,1763,' Roman (yerli)',5,73
-'Yeni Dünya (Cep Boy)','KARBON KİTAPLAR','Sabahattin Ali',7.0,2.9,164,419,' Hikaye (yerli)',5,16
+'Yeni Dünya (Cep Boy)','KARBON KİTAPLAR','Sabahattin Ali',7.0,2.9,164,419,' Hikaye (yerli)',5,17
 'Zor Olsa da Hayat Devam Ediyor','DESTEK YAYINLARI','Rövşen Abdullaoğlu',24.0,18.0,272,116,' Genel',5,3
 'İyi Yürekli Dev Memo','TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI','Julia Donaldson',11.11,7.21,32,7860,' Okul Öncesi',5,445
 'Sabahattin Ali Cep Boy Seti (3 Kitap)','KARBON KİTAPLAR','Sabahattin Ali',21.0,8.7,857,423,' Roman (yerli)',5,7
