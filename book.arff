@@ -1,3 +1,17 @@
+@relation books
+
+@attribute name string
+@attribute publisher string
+@attribute author string
+@attribute priceOther numeric
+@attribute priceSite numeric
+@attribute pageCount numeric
+@attribute saleCount numeric
+@attribute genre string
+@attribute point numeric
+@attribute votes numeric
+
+@data
 'Bir Ömür Nasıl Yaşanır? & Hayatta Doğru Seçimler İçin Öneriler','KRONİK KİTAP','Prof. Dr. İlber Ortaylı',27.5,16.49,288,55624,' Kişisel Gelişim',5,2025
 'Abartma Tozu','TAZE KİTAP','Şermin Yaşar',34.0,23.12,160,6059,' Hikaye',5,139
 'Bir İdam Mahkumunun Son Günü (Karton Kapak)','TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI','Victor Hugo',10.0,6.5,136,40870,' Fransızca',5,3085
@@ -18,7 +32,7 @@
 'Simyacı (Ciltsiz)','CAN YAYINLARI','Paulo Coelho',23.5,15.27,184,93272,' Portekizce',5,10849
 '1984','CAN YAYINLARI','George Orwell',35.0,22.75,352,104535,' İngilizce',5,13063
 'Bir İdam Mahkumunun Son Günü (Cep Boy)','KARBON KİTAPLAR','Victor Hugo',7.0,2.9,101,2264,' Roman (çeviri)',5,63
-'Beyaz Zambaklar Ülkesinde (Atatürk'ün askerlere tavsiye ettiği kitap)','KARBON KİTAPLAR','Grigory Petrov',7.41,4.59,100,11967,' Roman (çeviri)',5,553
+'Beyaz Zambaklar Ülkesinde (Atatürkün askerlere tavsiye ettiği kitap)','KARBON KİTAPLAR','Grigory Petrov',7.41,4.59,100,11967,'Roman(çeviri)',5,553
 'İçimizdeki Şeytan','YAPI KREDİ YAYINLARI','Sabahattin Ali',9.5,6.29,267,81229,' Roman (yerli)',5,7922
 'Bilinmeyen Bir Kadının Mektubu (Karton Kapak)','TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI','Stefan Zweig',6.0,3.9,68,86264,' Almanca',5,10123
 'Bülbülü Öldürmek','SEL YAYINCILIK','Harper Lee',24.0,16.32,355,50344,' İngilizce',5,4966
@@ -27,7 +41,7 @@
 'Satranç (Karton Kapak)','TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI','Stefan Zweig',7.0,4.55,77,60316,' Almanca',5,6777
 'Bir İdam Mahkumunun Son Günü','KARBON KİTAPLAR','Victor Hugo',9.26,4.63,85,6305,' Roman (çeviri)',5,229
 'Camdaki Kız','DOĞAN KİTAP','Dr. Gülseren Budayıcıoğlu',35.5,23.43,352,7318,' Roman (yerli)',5,250
-'Almanak 2014 / Türkiye'de ve Dünyada Fotoğraflarla Bir Yıl','NTV YAYINLARI','Kollektif',50.42,20.83,246,1439,' Yıllık & Antoloji',5,118
+'Almanak 2014 / Türkiyede ve Dünyada Fotoğraflarla Bir Yıl','NTV YAYINLARI','Kollektif',50.42,20.83,246,1439,' Yıllık & Antoloji',5,118
 'Küçük Prens','KARBON KİTAPLAR','Antoine De Saint Exupery',8.33,5.33,117,305006,' Hikaye, Roman & Masal',5,2816
 'Kürk Mantolu Madonna','YAPI KREDİ YAYINLARI','Sabahattin Ali',7.5,4.49,160,144612,' Roman (yerli)',5,19027
 'Tuhaf Dergi Sayı:28 Temmuz 2019','TUHAF DERGİ','',12.0,8.5,0,1372,' Kültür ve Sanat Dergileri',5,52
@@ -47,7 +61,7 @@
 'Kral Şakir 6 / Dürümler Karışık','EKSİK PARÇA ÇOCUK','Varol Yaşaroğlu , Haluk Can Dizdaroğlu , Mert Dikmen',32.0,19.18,208,6065,' Hikaye',5,147
 'Yabancı','CAN YAYINLARI','Albert Camus',16.0,10.4,111,63591,' Fransızca',4,7607
 'Zarife','CAN YAYINLARI KAMPANYA','Deniz Kavukçuoğlu',14.81,6.67,152,711,' Roman (yerli)',5,50
-'Almanak 2008 / Türkiye'de ve Dünyada Fotoğraflarla Bir Yıl','NTV YAYINLARI','Kollektif',28.01,11.57,240,1045,' Yıllık & Antoloji',5,72
+'Almanak 2008 / Türkiyede ve Dünyada Fotoğraflarla Bir Yıl','NTV YAYINLARI','Kollektif',28.01,11.57,240,1045,' Yıllık & Antoloji',5,72
 'Kırmızı Pazartesi','CAN YAYINLARI','Gabriel Garcia Marquez',16.0,10.4,108,57046,' İspanyolca',4,6674
 'Gerçek Tıp & Yitik Şifanın İzinde','YİTİK ŞİFA','Aidin Salih',60.0,39.6,432,25479,' Genel',5,1086
 'Kuyucaklı Yusuf','YAPI KREDİ YAYINLARI','Sabahattin Ali',8.5,5.77,221,74946,' Roman (yerli)',5,7298
@@ -76,22 +90,22 @@
 'Berdel','NTV YAYINLARI','Şebnem Eraş',28.01,11.57,168,787,' İnceleme-Araştırma',5,73
 'Saatleri Ayarlama Enstitüsü','DERGAH YAYINLARI','Ahmet Hamdi Tanpınar',40.0,28.0,382,34049,' Roman (yerli)',5,3492
 'İçimizdeki Şeytan (Cep Boy)','KARBON KİTAPLAR','Sabahattin Ali',7.0,2.9,352,1259,' Roman (yerli)',5,31
-'Spor'un En'leri & Dünyanın En İlginç Spor İstatistikleri','NTV YAYINLARI','Martin Toseland , Simon Toseland',28.01,12.6,200,2141,' Genel',4,140
+'Sporun Enleri & Dünyanın En İlginç Spor İstatistikleri','NTV YAYINLARI','Martin Toseland , Simon Toseland',28.01,12.6,200,2141,' Genel',4,140
 'Kadın Düşmanı Sözlük','CAN YAYINLARI KAMPANYA','Agnes Michaux',21.0,9.45,240,712,' Roman (çeviri)',4,57
 'The Little Prince','KARBON KİTAPLAR','Antoine De Saint Exupery',7.41,4.37,118,11309,' İngilizce',5,1046
 'Serenad (Karton Kapak)','DOĞAN KİTAP','Zülfü Livaneli',34.5,23.46,484,32705,' Roman (yerli)',5,3781
 'Gazap Üzümleri','SEL YAYINCILIK','John Steinbeck',40.0,27.2,556,10621,' İngilizce',5,1067
 'Kadehteki Göktaşı','NTV YAYINLARI','Florian Freistetter',20.37,10.18,160,2160,' Almanca',4,170
-'Lefter & Futbol'un Ordinaryüsü','NTV YAYINLARI','Haluk Hergün',33.61,13.89,392,1748,' Biyografi',5,93
+'Lefter & Futbolun Ordinaryüsü','NTV YAYINLARI','Haluk Hergün',33.61,13.89,392,1748,' Biyografi',5,93
 'Kral Kaybederse','REMZİ KİTABEVİ','Dr. Gülseren Budayıcıoğlu',37.04,24.08,384,7190,' Roman (yerli)',5,388
 'Alageyik Sokağı Bir Liman mıydı?','CAN YAYINLARI KAMPANYA','Deniz Kavukçuoğlu',29.63,13.33,432,689,' Anı (hatırat)',4,55
 'Dava (Cep Boy)','KARBON KİTAPLAR','Franz Kafka',7.0,2.9,272,828,' Roman (çeviri)',5,26
 'Evlilik Ahlakı / Muhteşem Ahlak Serisi 1','SİYER YAYINLARI','Muhammed Emin Yıldırım',12.5,7.81,180,1996,' Kültür',5,43
-'Türkiye'nin Kültür Mirası 100 Cam','NTV YAYINLARI','Prof. Önder Küçükerman',28.01,11.57,240,980,' Geleneksel Sanatlar',4,66
+'Türkiyenin Kültür Mirası 100 Cam','NTV YAYINLARI','Prof. Önder Küçükerman',28.01,11.57,240,980,' Geleneksel Sanatlar',4,66
 'Futbol! Bir Aşk...','NTV YAYINLARI','Halit Kıvanç',24.95,12.48,408,897,' Futbol',5,60
 'İyi Hissetmek','PSİKONET YAYINLARI','Dr. David Burns',35.0,24.5,404,32107,' İngilizce',5,1520
 'Organik Bozukluk & 21.Yüzyılda Tembellik Hakkı','CAN YAYINLARI KAMPANYA','Şenay Aydemir',14.0,6.3,112,596,' Anlatı',5,36
-'Genç Werther'in Acıları (Cep Boy)','KARBON KİTAPLAR','Goethe',7.0,2.9,144,1222,' Hikaye (çeviri)',5,38
+'Genç Wertherin Acıları (Cep Boy)','KARBON KİTAPLAR','Goethe',7.0,2.9,144,1222,' Hikaye (çeviri)',5,38
 '10 Milyar','NTV YAYINLARI','Stephen Emmott',16.81,8.4,200,2128,' Çevre & Doğa',4,180
 'Harry Potter ve Felsefe Taşı','YAPI KREDİ YAYINLARI','J. K. Rowling',25.0,17.0,274,243336,' İngilizce',5,2308
 'Mecburiyet','TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI','Stefan Zweig',6.0,3.9,50,23446,' Hikaye (çeviri)',5,2343
@@ -103,7 +117,7 @@
 'Semerkant','YAPI KREDİ YAYINLARI','Amin Maalouf',28.0,19.04,318,34492,' Fransızca',5,3635
 'Gizli Kitap','PEGASUS YAYINLARI','Gregory Samak',32.41,20.42,208,1241,' Roman (çeviri)',4,74
 'Olağanüstü Bir Gece','KARBON KİTAPLAR','Stefan Zweig',7.41,4.0,53,4262,' Hikaye (çeviri)',4,224
-'Ay'ı Kim Çaldı?','YAPI KREDİ YAYINLARI','Helen Stratton Would',9.0,5.41,40,381549,' Hikaye',5,796
+'Ayı Kim Çaldı?','YAPI KREDİ YAYINLARI','Helen Stratton Would',9.0,5.41,40,381549,' Hikaye',5,796
 'Martin Eden','TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI','Jack London',25.0,16.25,520,8852,' İngilizce',5,1187
 'Küçük Prens (Cep Boy)','KARBON KİTAPLAR','Antoine De Saint Exupery',7.0,2.9,117,159961,' Hikaye, Roman & Masal',5,44
 'Öykünün Bahçesi','CAN YAYINLARI KAMPANYA','Semih Gümüş',22.5,10.13,216,614,' İnceleme',5,40
@@ -117,7 +131,7 @@
 'Harry Potter ve Sırlar Odası','YAPI KREDİ YAYINLARI','J. K. Rowling',30.0,18.6,314,188406,' İngilizce',5,1703
 'Aylak Adam','CAN YAYINLARI','Yusuf Atılgan',16.0,10.4,192,12413,' Roman (yerli)',4,952
 'Kardeşimin Hikayesi (Karton Kapak)','DOĞAN KİTAP','Zülfü Livaneli',26.85,19.6,330,30514,' Roman (yerli)',5,3681
-'Dervişin Teselli Koleksiyonu & Doğu'dan Batı'dan 99 Teselli','HAYY KİTAP','Mecit Ömür Öztürk',30.0,16.5,344,13880,' Filozoflar-Düşünürler',5,453
+'Dervişin Teselli Koleksiyonu & Doğudan Batıdan 99 Teselli','HAYY KİTAP','Mecit Ömür Öztürk',30.0,16.5,344,13880,' Filozoflar-Düşünürler',5,453
 'Karamazov Kardeşler (Ciltsiz)','TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI','Fyodor Mihayloviç Dostoyevski',27.78,18.06,1008,16602,' Rusça',5,1930
 'Nasip Niyete Vurgundur','OLİMPOS YAYINLARI','Ethem Emin Nemutlu',20.0,11.0,160,3351,' Deneme (yerli)',5,90
 'Serbest Düşüş','CAN YAYINLARI KAMPANYA','Nilüfer Kuyaş',24.5,9.19,248,570,' Roman (yerli)',4,42
@@ -154,10 +168,10 @@
 'Oblomov (Ciltsiz)','TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI','İvan Gonçarov',26.0,16.9,632,10054,' Rusça',5,1319
 'Küçük Prens','CAN ÇOCUK YAYINLARI','Antoine De Saint Exupery',9.5,6.17,112,877166,' Fransızca',5,9196
 'Savaş Sanatı (Karton Kapak)','TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI','Sun Tzu',8.0,5.2,53,14118,' Çince',5,1391
-'Sofie'nin Dünyası Felsefe Tarihi Üzerine Bir Roman','PAN YAYINCILIK','Jostein Gaarder',40.0,25.19,591,22478,' Norveççe',5,1862
+'Sofienin Dünyası Felsefe Tarihi Üzerine Bir Roman','PAN YAYINCILIK','Jostein Gaarder',40.0,25.19,591,22478,' Norveççe',5,1862
 'Kendine Hoş Geldin','OLİMPOS YAYINLARI','Miraç Çağrı Aktaş',22.0,12.1,160,213,' Deneme (yerli)',2,11
 'Palto (Cep Boy)','KARBON KİTAPLAR','Nikolay Vasilievich Gogol',7.0,2.9,58,753,' Hikaye (çeviri)',5,28
-'Saray'dan Saray'a Türkiye'de Gazetecilik Masalı','CAN YAYINLARI KAMPANYA','Ümit Alan',31.0,13.95,336,419,' İletişim-Medya',4,22
+'Saraydan Saraya Türkiyede Gazetecilik Masalı','CAN YAYINLARI KAMPANYA','Ümit Alan',31.0,13.95,336,419,' İletişim-Medya',4,22
 'Harry Potter ve Azkaban Tutsağı','YAPI KREDİ YAYINLARI','J. K. Rowling',35.0,21.0,396,161586,' İngilizce',5,1492
 'Üç Kedi Bir Dilek','YAPI KREDİ YAYINLARI','Sara Şahinkanat',24.0,14.44,32,382110,' Hikaye',5,1286
 'Sonsuzluğun Sonu','MONOKL YAYINLARI','Isaac Asimov',27.0,16.2,240,2234,' İngilizce',5,244
@@ -167,7 +181,7 @@
 'Harry Potter ve Ateş Kadehi','YAPI KREDİ YAYINLARI','J. K. Rowling',44.0,27.28,664,141576,' İngilizce',5,1295
 'Telesafir & Anılarla Türk Televizyonculuğu','NTV YAYINLARI','Halit Kıvanç',20.37,10.18,216,1695,' İletişim-Medya',4,151
 'Çetin Ceviz & Sıra Dışı Bir Ödev Hikayesi','FOM KİTAP','Sinan Yaşar',15.0,9.45,64,10288,' Roman',5,231
-'Genç Werther'in Acıları (Ciltsiz)','TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI','Johann Wolfgang Goethe',12.0,7.8,126,13734,' Almanca',5,1606
+'Genç Wertherin Acıları (Ciltsiz)','TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI','Johann Wolfgang Goethe',12.0,7.8,126,13734,' Almanca',5,1606
 'Görmek','KIRMIZI KEDİ YAYINEVİ','Jose Saramago',30.0,17.5,324,11401,' Roman (çeviri)',5,879
 'Ermiş','TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI','Halil Cibran',8.0,5.2,56,18213,' Doğu Felsefesi',4,2064
 'Dönüşüm (Cep Boy)','KARBON KİTAPLAR','Franz Kafka',7.0,2.9,78,709,' Roman (çeviri)',5,25
@@ -179,7 +193,7 @@
 'Öteki (Cep Boy)','KARBON KİTAPLAR','Fyodor Mihayloviç Dostoyevski',7.0,2.9,191,434,' Roman (çeviri)',5,18
 'Halep','CAN YAYINLARI KAMPANYA','Serhat Öztürk',16.67,7.5,176,485,' Diğer',5,40
 'Acemi Eğitimi','CAN YAYINLARI KAMPANYA','Can Kozanoğlu',24.5,12.25,256,621,' Anı (hatırat)',4,58
-'Sokrates'in Savunması (Karton Kapak)','TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI','Platon(Eflatun)',12.0,7.8,200,12190,' Eski Yunanca',5,1016
+'Sokratesin Savunması (Karton Kapak)','TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI','Platon(Eflatun)',12.0,7.8,200,12190,' Eski Yunanca',5,1016
 'Güneşi Uyandıralım','CAN YAYINLARI','Jose Mauro De Vasconcelos',29.5,19.17,272,281026,' Portekizce',5,2608
 'Denemeler / Montaigne (Ciltsiz)','TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI','Michel de Montaigne',12.96,8.42,314,15201,' Fransızca',5,1386
 'Kesik Hava','CAN YAYINLARI KAMPANYA','Murat Yalçın',17.0,7.65,160,513,' Hikaye (yerli)',4,42
@@ -220,11 +234,11 @@
 'Yüzyıllık Yalnızlık (Ciltsiz)','CAN YAYINLARI','Gabriel Garcia Marquez',42.0,27.3,464,37406,' İspanyolca',4,4260
 'Monsieur ya da Karanlıklar Prensi / Avignon Beşlisi 1','CAN YAYINLARI KAMPANYA','Lawrence Durrell',31.0,13.95,320,384,' İngilizce',5,34
 'Kumarbaz (Karton Kapak)','TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI','Fyodor Mihayloviç Dostoyevski',13.0,8.45,192,10044,' Rusça',5,1174
-'Beni Akkuyu'larda Merdivensiz Bıraktın & Türkiye'nin Nükleerle İmtihanı','CAN YAYINLARI KAMPANYA','Filiz Yavuz',23.5,10.58,232,333,' Çevre & Doğa',5,11
+'Beni Akkuyularda Merdivensiz Bıraktın & Türkiyenin Nükleerle İmtihanı','CAN YAYINLARI KAMPANYA','Filiz Yavuz',23.5,10.58,232,333,' Çevre & Doğa',5,11
 'Veronika Ölmek İstiyor','CAN YAYINLARI','Paulo Coelho',25.5,16.06,198,17770,' Portekizce',5,1657
 'Livia Ya Da Diri Diri Gömülmek / Avignon Beşlisi 2','CAN YAYINLARI KAMPANYA','Lawrence Durrell',23.5,10.58,240,359,' İngilizce',4,24
 'Evvel Zaman İçinde','PEGASUS YAYINLARI','Tom McNeal',36.94,23.27,360,553,' Bilimkurgu-Fantazya',5,24
-'Ay'a Yolculuk (Cep Boy)','KARBON KİTAPLAR','Jules Verne',7.0,2.9,210,566612,' Hikaye, Roman & Masal',5,25
+'Aya Yolculuk (Cep Boy)','KARBON KİTAPLAR','Jules Verne',7.0,2.9,210,566612,' Hikaye, Roman & Masal',5,25
 'Amok Koşucusu (Cep Boy)','KARBON KİTAPLAR','Stefan Zweig',7.0,2.9,63,619,' Hikaye (çeviri)',5,24
 'Sivrisinek Şehirde','DEDALUS KİTAP','Erlom Ahvlediani',22.0,13.5,192,564,' Roman (çeviri)',4,26
 'Göğe Bakma Durağı','YAPI KREDİ YAYINLARI','Turgut Uyar',8.0,5.12,112,30529,' Şiir (yerli)',5,2507
@@ -270,7 +284,7 @@
 'Kral Şakir 5 / Dostum Bu Çok Havalı!','EKSİK PARÇA ÇOCUK','Varol Yaşaroğlu',32.0,19.2,208,9580,' Hikaye',4,281
 'Türkçülüğün Esasları (Cep Boy)','KARBON KİTAPLAR','Ziya Gökalp',7.0,2.9,191,664,' Siyasal Düşünce',5,22
 'Sirkadiyen Beslenme','DOĞAN KİTAP','Dr. Ayşegül Çoruhlu',25.0,16.75,180,2561,' Sağlıklı beslenme-Diyet',4,53
-'Notre Dame'ın Kamburu (Karton Kapak)','TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI','Victor Hugo',28.0,18.2,572,5684,' Fransızca',5,599
+'Notre Dameın Kamburu (Karton Kapak)','TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI','Victor Hugo',28.0,18.2,572,5684,' Fransızca',5,599
 'Tecrübe Taktiklerle Paragraf Soru Bankası Tüm Zamanların Tüm Sınavları İçin','PELİKAN YAYINLARI','Rüştü Bayındır',47.5,27.79,320,2750,' Eğitime Yardımcı Kitaplar',5,117
 'Kiraz Ağacı ile Aramızdaki Mesafe','TİMAŞ GENÇ','Paola Peretti',22.5,14.62,208,433612,' Hikaye, Roman & Masal',5,188
 'Seni Anlıyorum Çocuk','YEDİVEREN YAYINLARI','Dilek Cesur',25.0,14.99,224,8233,' Annelik-Babalık-Aile',5,196
@@ -290,7 +304,7 @@
 'Homo Deus: Yarının Kısa Bir Tarihi','KOLEKTİF KİTAP','Yuval Noah Harari',42.59,25.55,456,18707,' İnceleme-Araştırma',5,1225
 'Kara Kedi (Cep Boy)','KARBON KİTAPLAR','Edgar Allan Poe',7.0,2.9,84,376,' Hikaye (çeviri)',5,15
 'Incognito & Beynin Gizli Hayatı','DOMİNGO YAYINEVİ','David Eagleman',30.0,18.9,304,13917,' İngilizce',4,940
-'Dorian Gray'in Portresi (Karton Kapak)','TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI','Oscar Wilde',19.0,12.35,272,1590,' Roman (çeviri)',5,140
+'Dorian Grayin Portresi (Karton Kapak)','TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI','Oscar Wilde',19.0,12.35,272,1590,' Roman (çeviri)',5,140
 'İnsancıklar','CAN YAYINLARI','Fyodor Mihayloviç Dostoyevski',12.5,8.12,184,5145,' Rusça',5,558
 'Badeci Şeyh’in Sır Odası','KIRMIZI KEDİ YAYINEVİ','Timur Soykan',21.0,13.65,224,870,'',4,25
 'Sürüş Becerileri & Motosikletçinin El Kitabı','NTV YAYINLARI','Mark Lindemann',28.01,13.95,96,1897,' İngilizce',4,127
@@ -316,7 +330,7 @@
 'Aç Tırtıl','MAVİBULUT YAYINCILIK','Eric Carle',26.85,15.84,32,12312,' İngilizce',5,748
 'Kral Şakir 2 / Macera Devam Ediyor (Ciltli)','EKSİK PARÇA ÇOCUK','Varol Yaşaroğlu',32.0,19.2,216,9810,' Hikaye',5,258
 'Seni Anlıyorum Anne','YEDİVEREN YAYINLARI','Dilek Cesur',25.0,13.0,256,2122,' Annelik-Babalık-Aile',5,40
-'İvan İlyiç'in Ölümü (Cep Boy)','KARBON KİTAPLAR','Lev N. Tolstoy',7.0,2.9,92,94,' Roman (çeviri)',5,5
+'İvan İlyiçin Ölümü (Cep Boy)','KARBON KİTAPLAR','Lev N. Tolstoy',7.0,2.9,92,94,' Roman (çeviri)',5,5
 'Ya Nasip','YEDİVEREN YAYINLARI','Osman Sungur Yeken',25.0,15.0,256,1763,' Roman (yerli)',5,73
 'Yeni Dünya (Cep Boy)','KARBON KİTAPLAR','Sabahattin Ali',7.0,2.9,164,419,' Hikaye (yerli)',5,16
 'Zor Olsa da Hayat Devam Ediyor','DESTEK YAYINLARI','Rövşen Abdullaoğlu',24.0,18.0,272,116,' Genel',5,3
@@ -335,7 +349,7 @@
 'Can Veren Pervaneler 2','BABIALİ KÜLTÜR YAYINCILIĞI','Hayati İnanç',22.22,14.44,124,3148,' Divan Edebiyatı',5,165
 'Paradan Haber Ver!','NTV YAYINLARI','Esteve Calzada',24.95,12.48,208,530,' Pazarlama-Satış',4,41
 'Efendi İle Uşağı (Cep Boy)','KARBON KİTAPLAR','Lev N. Tolstoy',7.0,2.9,72,392,' Hikaye (çeviri)',5,15
-'Charlie'nin Çikolata Fabrikası (Ciltsiz)','CAN ÇOCUK YAYINLARI','Roald Dahl',21.0,13.44,208,930142,' İngilizce',5,1518
+'Charlienin Çikolata Fabrikası (Ciltsiz)','CAN ÇOCUK YAYINLARI','Roald Dahl',21.0,13.44,208,930142,' İngilizce',5,1518
 'Formula 1 2006 Sezon Değerlendirmesi (Ciltli)','NTV YAYINLARI','Kollektif',33.61,16.8,256,992,' Genel',5,74
 'Şu Yaramaz Tavşanlar','TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI','Ciara Flood',12.0,7.8,36,1474,' Hikaye',5,74
 'Doktor Ox’un Deneyi','TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI','Jules Verne',8.0,5.2,96,6097,' Roman (çeviri)',5,815
@@ -366,7 +380,7 @@
 'Uzun Hikaye','DERGAH YAYINLARI','Mustafa Kutlu',14.0,9.8,115,22548,' Hikaye (yerli)',5,1633
 'Olasılıksız','APRIL YAYINCILIK','Adam Fawer',35.0,23.8,475,26555,' İngilizce',5,4185
 'Son Söz - Gerçek Tıp Dersleri Cilt 2','YİTİK ŞİFA','Aidin Salih',45.0,33.75,368,111,' Eğitim',5,3
-'Öğretmenim Bir Bakar Mısın? & Öğretmen'in Gücü Üzerine','FİNAL KÜLTÜR SANAT YAYINLARI','Doğan Cüceloğlu',27.78,18.61,208,15996,' Diğer',5,523
+'Öğretmenim Bir Bakar Mısın? & Öğretmenin Gücü Üzerine','FİNAL KÜLTÜR SANAT YAYINLARI','Doğan Cüceloğlu',27.78,18.61,208,15996,' Diğer',5,523
 'Mutluluk','DOĞAN KİTAP','Zülfü Livaneli',31.5,21.74,392,7132,' Roman (yerli)',5,763
 'Rüzgarlar Hep Gençtir','DEX KİTAP','Zülfü Livaneli',25.5,17.23,224,4435,' Roman (yerli)',5,205
 'Alkali Diyet','DOĞAN KİTAP','Dr. Ayşegül Çoruhlu',25.0,17.5,148,695,' Sağlıklı beslenme-Diyet',4,10
@@ -385,7 +399,7 @@
 'Şiddetsiz İletişim','REMZİ KİTABEVİ','Marshall B. Rosenberg',25.46,16.82,264,5651,' İngilizce',5,190
 'Burun (Cep Boy)','KARBON KİTAPLAR','Nikolay Vasilievich Gogol',7.0,2.9,85,403,' Hikaye (çeviri)',5,19
 'Kıyamet Koparken Park Etmek Yasaktır','PEGASUS YAYINLARI','Bryan Bliss',32.41,19.12,264,453,' Roman (çeviri)',4,16
-'İvan İlyiç'in Ölümü (Karton Kapak)','TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI','Lev N. Tolstoy',10.0,6.5,100,4656,' Rusça',5,628
+'İvan İlyiçin Ölümü (Karton Kapak)','TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI','Lev N. Tolstoy',10.0,6.5,100,4656,' Rusça',5,628
 'Olimpiyatların Yükselişi','NTV YAYINLARI','Michael Payne',28.01,12.5,320,1053,' Olimpiyatlar',4,76
 'Koşulsuz Ebeveynlik','GÖRÜNMEZ ADAM YAYINLARI','Alfie Kohn',29.63,22.52,316,5162,' Rehber Kitaplar',5,198
 'Madame Bovary (Ciltsiz)','TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI','Gustave Flaubert',16.0,10.4,396,4400,' Fransızca',5,503
@@ -411,7 +425,7 @@
 'Heyet 3 / Devletin Anlaşılmamış Devri','LOPUS','Halil Yaşar Kollu',26.85,16.11,304,6879,' Siyasal Tarih',4,245
 'Açılın Ben Öğretmenim','ELMA YAYINEVİ','Müjdat Ataman',29.0,18.65,296,4528,' Anlatı',5,157
 '50 Soruda Yapay Zeka','BİLİM VE GELECEK KİTAPLIĞI','Cem Say',25.0,17.05,188,2093,' Popüler Bilim',5,61
-'Leyla'nın Evi','DOĞAN KİTAP','Zülfü Livaneli',25.93,18.93,284,8670,' Roman (yerli)',5,972
+'Leylanın Evi','DOĞAN KİTAP','Zülfü Livaneli',25.93,18.93,284,8670,' Roman (yerli)',5,972
 'Yitik Cennet','DİRİLİŞ YAYINLARI','Sezai Karakoç',22.0,15.48,144,11831,' Genel',5,719
 'Şu Hortumlu Dünyada Fil Yalnız Bir Hayvandır (ciltsiz)','ELMA YAYINEVİ','Ahmet Şerif İzgören',25.0,16.25,163,20657,' Kişisel Gelişim',5,1508
 'Otuz Milyon Kelime & Çocuğunuzun Beynini Geliştirin','BUZDAĞI YAYINLARI','Dr. Dana Suskind',35.0,25.2,304,9542,' Çocuk Eğitimi',5,432
@@ -426,6 +440,3 @@
 'Henüz Vakit Varken Gülüm','YAPI KREDİ YAYINLARI','Nazım Hikmet',8.0,5.12,112,15462,' Şiir (yerli)',5,1350
 'Çöle İnen Nur (kod39)','BÜYÜK DOĞU YAYINLARI','Necip Fazıl Kısakürek',35.19,24.64,608,12245,' Siyer',5,1081
 'Morgue Sokağı Cinayetleri','KARBON KİTAPLAR','Edgar Allan Poe',10.0,6.5,64,633,' Hikaye (çeviri)',5,34
-'Hayvan Mezarlığı','ALTIN KİTAPLAR','Stephen King',35.0,22.75,340,4519,' İngilizce',5,566
-'Başarıya Götüren Aile','REMZİ KİTABEVİ','Doğan Cüceloğlu',18.52,12.78,143,17939,' Çocuk Eğitimi',5,782
-'Şimdi ve Sonsuza Dek','PEGASUS YAYINLARI','Lexa Hillyer',36.94,23.27,344,450,' Roman (

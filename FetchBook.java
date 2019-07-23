@@ -98,6 +98,7 @@ public class FetchBook {
         booklist.sort(comparator);
 
         writeDataToFile(bookData);
+        createArffFile(bookData);
 
     }//end of main method
 
@@ -113,8 +114,35 @@ public class FetchBook {
         for (String line : list) {
             fileWriter.write(line + "\n");
         }
+    }
 
+    public static void createArffFile(ArrayList<String> list) throws IOException {
+        File file = new File("book.arff");
 
+        if (!file.exists()) {
+            file.createNewFile();
+        }
+
+        FileWriter fileWriter = new FileWriter(file);
+
+        fileWriter.write("@relation books" + "\n\n");
+
+        fileWriter.write("@attribute name string" + "\n");
+        fileWriter.write("@attribute publisher string" + "\n");
+        fileWriter.write("@attribute author string" + "\n");
+        fileWriter.write("@attribute priceOther numeric" + "\n");
+        fileWriter.write("@attribute priceSite numeric" + "\n");
+        fileWriter.write("@attribute pageCount numeric" + "\n");
+        fileWriter.write("@attribute saleCount numeric" + "\n");
+        fileWriter.write("@attribute genre string" + "\n");
+        fileWriter.write("@attribute point numeric" + "\n");
+        fileWriter.write("@attribute votes numeric" + "\n\n");
+
+        fileWriter.write("@data" + "\n");
+
+        for (String line : list) {
+            fileWriter.write(line + "\n");
+        }
     }
 
 
