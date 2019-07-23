@@ -1,0 +1,478 @@
+@relation books
+
+@attribute name string
+@attribute publisher string
+@attribute author string
+@attribute priceOther numeric
+@attribute priceSite numeric
+@attribute pageCount numeric
+@attribute saleCount numeric
+@attribute genre string
+@attribute point numeric
+@attribute votes numeric
+
+@data
+Bir Ömür Nasıl Yaşanır? & Hayatta Doğru Seçimler İçin Öneriler,KRONİK KİTAP,Prof. Dr. İlber Ortaylı,27.5,16.49,288,55084, Kişisel Gelişim,5,2007
+Abartma Tozu,TAZE KİTAP,Şermin Yaşar,34.0,23.12,160,5813, Hikaye,5,135
+Bir İdam Mahkumunun Son Günü (Karton Kapak),TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Victor Hugo,10.0,6.5,136,40678, Fransızca,5,3079
+Fahrenheit 451,İTHAKİ YAYINLARI,Ray Bradbury,24.0,11.5,208,67387, İngilizce,4,5638
+Pucca Günlük 7 / Peki Ya Şimdi ?,İNDİGO KİTAP,Pucca,27.0,17.66,216,1913, Anlatı,3,115
+Hayvan Çiftliği (Ciltsiz),CAN YAYINLARI,George Orwell,20.0,13.0,152,106040, İngilizce,5,12820
+Pia Mater,ELMA YAYINEVİ,Serkan Karaismailoğlu,42.0,27.01,424,4989, Roman (yerli),5,154
+Sen Benim Hayatımsın,CAN YAYINLARI KAMPANYA,Ferzan Özpetek,24.5,11.61,240,6369, Roman (yerli),4,340
+Şeker Portakalı (Ciltsiz),CAN YAYINLARI,Jose Mauro De Vasconcelos,23.5,15.27,182,132749, Portekizce,5,14914
+İnsan Nedir?,DEDALUS KİTAP,Mark Twain,18.0,10.3,136,2365, İngilizce,5,83
+Olağanüstü Bir Gece,TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Stefan Zweig,8.0,5.2,80,82738, Almanca,5,7768
+Körlük,KIRMIZI KEDİ YAYINEVİ,Jose Saramago,35.0,22.75,336,46182, Roman (çeviri),5,4065
+Momo,PEGASUS YAYINLARI,Michael Ende,29.98,20.09,304,651461, 100 Temel Eser,5,4209
+Fareler ve İnsanlar,SEL YAYINCILIK,John Steinbeck,16.0,10.87,126,60287, İngilizce,5,6002
+Cesur Yeni Dünya,İTHAKİ YAYINLARI,Aldous Huxley,24.0,11.5,272,37627, İngilizce,5,3165
+Almanak 2014 / Türkiye'de ve Dünyada Fotoğraflarla Bir Yıl,NTV YAYINLARI,Kollektif,50.42,20.83,246,1392, Yıllık & Antoloji,5,114
+1984,CAN YAYINLARI,George Orwell,35.0,22.75,352,104450, İngilizce,5,13052
+İçimizdeki Şeytan,YAPI KREDİ YAYINLARI,Sabahattin Ali,9.5,6.29,267,81164, Roman (yerli),5,7913
+Bir İdam Mahkumunun Son Günü (Cep Boy),KARBON KİTAPLAR,Victor Hugo,7.0,2.9,101,2203, Roman (çeviri),5,63
+Suç ve Ceza (Ciltsiz),TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Fyodor Mihayloviç Dostoyevski,20.0,13.0,704,42432, Rusça,5,4392
+Tüfek, Mikrop ve Çelik,PEGASUS YAYINLARI,Jared Diamond,64.81,37.09,609,15811, Popüler Bilim,5,1019
+Simyacı (Ciltsiz),CAN YAYINLARI,Paulo Coelho,23.5,15.27,184,93174, Portekizce,5,10840
+Sakın Oraya Gitme,CAN YAYINLARI KAMPANYA,Yekta Kopan,16.0,7.2,136,4527, Hikaye (yerli),4,409
+Beyaz Zambaklar Ülkesinde (Atatürk'ün askerlere tavsiye ettiği kitap),KARBON KİTAPLAR,Grigory Petrov,7.41,4.59,100,11854, Roman (çeviri),5,551
+Dr. Jeykll ve Bay Hyde,NTV YAYINLARI,Robert Louis Stevenson,14.0,5.78,128,1895, Çizgi Roman,5,195
+Bilinmeyen Bir Kadının Mektubu (Karton Kapak),TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Stefan Zweig,6.0,3.9,68,86182, Almanca,5,10122
+Sabahattin Ali Seti (3 Kitap),KARBON KİTAPLAR,Sabahattin Ali,31.48,12.12,727,18383, Roman (yerli),5,620
+Kutuplardan Çöllere Büyük Kaşifler,NTV YAYINLARI,Emanuelle Ousset,16.81,8.4,80,1809, Keşifler Tarihi,5,51
+Doğuştan Yalancı & Neden Yalan Söylemeden Yaşayamıyoruz?,NTV YAYINLARI,Ian Leslie,24.95,12.48,288,1392, İnceleme,4,109
+Bülbülü Öldürmek,SEL YAYINCILIK,Harper Lee,24.0,16.32,355,50256, İngilizce,5,4962
+Bir İdam Mahkumunun Son Günü,KARBON KİTAPLAR,Victor Hugo,9.26,4.63,85,6251, Roman (çeviri),5,228
+İki Şiirin Arasında,CAN YAYINLARI KAMPANYA,Yekta Kopan,16.0,6.0,144,5363, Hikaye (yerli),4,339
+Satranç (Karton Kapak),TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Stefan Zweig,7.0,4.55,77,60235, Almanca,5,6775
+Sapma & Medeniyetin Seyrini Değiştiren Keşfin Öyküsü,CAN YAYINLARI KAMPANYA,Stephen Greenblatt,19.44,9.72,164,1731, Felsefe Metinleri,4,151
+Tuhaf Dergi Sayı:28 Temmuz 2019,TUHAF DERGİ,,12.0,8.5,0,1322, Kültür ve Sanat Dergileri,5,52
+Bilimden Sanata Yüzyılın Ünlüleri / Hazır Bilgi Serisi,NTV YAYINLARI,Christophe Quillien,16.81,8.4,80,1029, Popüler Kültür,5,50
+Kökler, Yollar ve Yitik Benler,CAN YAYINLARI KAMPANYA,Susanna Tamaro,14.0,5.75,104,3437, İtalyanca,4,248
+Metastaz,KIRMIZI KEDİ YAYINEVİ,Barış Pehlivan , Barış Terkoğlu,27.5,17.88,264,23060, Araştırma-İnceleme,4,811
+Almanak 2008 / Türkiye'de ve Dünyada Fotoğraflarla Bir Yıl,NTV YAYINLARI,Kollektif,28.01,11.57,240,1007, Yıllık & Antoloji,5,70
+Zarife,CAN YAYINLARI KAMPANYA,Deniz Kavukçuoğlu,14.81,6.67,152,667, Roman (yerli),5,45
+İnsan Neyle Yaşar (Karton Kapak),TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Lev N. Tolstoy,10.0,6.5,112,23057, Rusça,5,2138
+Camdaki Kız,DOĞAN KİTAP,Dr. Gülseren Budayıcıoğlu,35.5,23.43,352,7237, Roman (yerli),5,247
+Kürk Mantolu Madonna,YAPI KREDİ YAYINLARI,Sabahattin Ali,7.5,4.49,160,144519, Roman (yerli),5,19017
+Küçük Prens,KARBON KİTAPLAR,Antoine De Saint Exupery,8.33,5.33,117,304286, Hikaye, Roman & Masal,5,2813
+İngilizce Bulmacalarla Kahve Molası -1,KARBON KİTAPLAR,Alev Yıldırım,9.26,5.93,160,19718, İngilizce,4,1191
+Ay Işığı Sokağı,TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Stefan Zweig,7.0,4.55,80,43211, Hikaye (çeviri),5,3663
+Alev Püskürtenler,CAN YAYINLARI KAMPANYA,Rachel Kushner,36.0,16.2,504,880, İngilizce,4,59
+Slavoj Zizek / Çağımızın Son Filozofunu Anlamak İçin Çizgibilim,NTV YAYINLARI,Christopher Kul-Want,19.35,9.68,176,1667, Filozoflar-Düşünürler,4,124
+Göklerde Eriyip Gitmek İsterdim,CAN YAYINLARI KAMPANYA,Jose Marti,15.0,6.75,128,736, Şiir (çeviri),5,48
+Aşk, Hürriyet, İstibdat,CAN YAYINLARI KAMPANYA,Burak Artuner,15.74,7.08,200,1311, Roman (yerli),4,109
+Sineklerin Tanrısı (karton kapak),TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,William Golding,16.0,10.4,261,54568, İngilizce,4,5480
+Yabancı,CAN YAYINLARI,Albert Camus,16.0,10.4,111,63542, Fransızca,4,7599
+Kral Şakir 6 / Dürümler Karışık,EKSİK PARÇA ÇOCUK,Varol Yaşaroğlu , Haluk Can Dizdaroğlu , Mert Dikmen,32.0,19.18,208,6004, Hikaye,5,147
+Bir Şehri Yok Etmek,CAN YAYINLARI KAMPANYA,Emine Uşaklıgil,25.5,9.56,264,902, İnceleme-Araştırma,4,57
+Yeraltından Notlar (Karton Kapak),TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Fyodor Mihayloviç Dostoyevski,12.0,7.08,140,20803, Rusça,5,2120
+Korku,TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Stefan Zweig,7.41,4.81,80,39762, Almanca,5,4192
+Kuyucaklı Yusuf,YAPI KREDİ YAYINLARI,Sabahattin Ali,8.5,5.77,221,74889, Roman (yerli),5,7296
+Küçük Kara Balık,KARBON KİTAPLAR,Samed Behrengi,8.33,4.58,56,17658, Hikaye,5,1036
+Berdel,NTV YAYINLARI,Şebnem Eraş,28.01,11.57,168,766, İnceleme-Araştırma,5,71
+Spor'un En'leri & Dünyanın En İlginç Spor İstatistikleri,NTV YAYINLARI,Martin Toseland , Simon Toseland,28.01,12.6,200,2109, Genel,4,138
+Amok Koşucusu,TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Stefan Zweig,7.0,4.55,64,27054, Roman (çeviri),5,2850
+Kırmızı Pazartesi,CAN YAYINLARI,Gabriel Garcia Marquez,16.0,10.4,108,56988, İspanyolca,4,6672
+Otomatik Portakal (ciltsiz),TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Anthony Burgess,16.0,10.4,176,47571, İngilizce,4,5658
+Heykeltraştan Ressama Büyük Sanatçılar / Hazır Bilgi Serisi,NTV YAYINLARI,Caroline Larroche,16.81,8.4,80,945, Heykel,5,64
+Gerçek Tıp & Yitik Şifanın İzinde,YİTİK ŞİFA,Aidin Salih,60.0,39.6,432,25423, Genel,5,1086
+Kırılma Noktası,CAN YAYINLARI KAMPANYA,Yiğit Bener,24.5,10.86,256,618, Roman (yerli),4,41
+Bir Çöküşün Öyküsü,TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Stefan Zweig,6.0,3.61,56,45089, Roman (çeviri),5,4502
+Hayvanlardan Tanrılara Sapiens & İnsan Türünün Kısa Bir Tarihi,KOLEKTİF KİTAP,Yuval Noah Harari,41.67,25.0,412,48109, İngilizce,5,3758
+İnsan Neyle Yaşar? (Cep Boy),KARBON KİTAPLAR,Lev N. Tolstoy,7.0,2.9,56,1291, Hikaye (çeviri),5,44
+10 Milyar,NTV YAYINLARI,Stephen Emmott,16.81,8.4,200,2101, Çevre & Doğa,4,178
+Kalp,TURKUVAZ KİTAP,Prof. Dr. İskender Pala,30.0,19.62,328,7569, Roman (yerli),5,349
+Futbol! Bir Aşk...,NTV YAYINLARI,Halit Kıvanç,24.95,12.48,408,870, Futbol,5,56
+Kadın Düşmanı Sözlük,CAN YAYINLARI KAMPANYA,Agnes Michaux,21.0,9.45,240,672, Roman (çeviri),4,56
+İtiraflarım,KARBON KİTAPLAR,Lev N. Tolstoy,7.41,4.59,93,15856, Genel,5,1027
+Kadehteki Göktaşı,NTV YAYINLARI,Florian Freistetter,20.37,10.18,160,2114, Almanca,4,168
+Lefter & Futbol'un Ordinaryüsü,NTV YAYINLARI,Haluk Hergün,33.61,13.89,392,1395, Biyografi,5,92
+Türkiye'nin Kültür Mirası 100 Cam,NTV YAYINLARI,Prof. Önder Küçükerman,28.01,11.57,240,956, Geleneksel Sanatlar,4,64
+Organik Bozukluk & 21.Yüzyılda Tembellik Hakkı,CAN YAYINLARI KAMPANYA,Şenay Aydemir,14.0,6.3,112,567, Anlatı,5,33
+Altıncı Koğuş,TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Anton Çehov,7.0,4.54,68,17770, Hikaye (çeviri),5,1559
+Huzursuzluk,DOĞAN KİTAP,Zülfü Livaneli,18.55,12.8,160,56158, Roman (yerli),5,5625
+Sefarad Yahudilerinden Masallar,CAN YAYINLARI KAMPANYA,Vanessa Pfister-Mesavage,14.0,6.3,128,483, Masal,4,19
+Dönüşüm (Karton Kapak),TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Franz Kafka,6.0,3.9,74,28208, Almanca,5,2885
+Alageyik Sokağı Bir Liman mıydı?,CAN YAYINLARI KAMPANYA,Deniz Kavukçuoğlu,29.63,13.33,432,660, Anı (hatırat),4,53
+İfsa,KIRMIZI KEDİ YAYINEVİ,Toygun Atilla,27.5,17.88,288,2276, Araştırma-İnceleme,4,65
+On Dakika Otuz Sekiz Saniye,DOĞAN KİTAP,Elif Şafak,36.5,25.19,392,2378, Roman (yerli),3,181
+Sırça Köşk,YAPI KREDİ YAYINLARI,Sabahattin Ali,8.0,5.04,141,37793, Hikaye (yerli),5,3464
+Beyaz Zambaklar Ülkesinde (Cep Boy),KARBON KİTAPLAR,Grigory Petrov,7.0,2.9,110,1481, Anı (hatırat),5,48
+Rus Ruletinde Nasıl Kazanırsınız ve Diğer Ölümcül Mantık Soruları,NTV YAYINLARI,Thomas Byrne , Tom Cassidy,20.37,10.18,196,1052, Oyunlar,4,81
+İçimizdeki Şeytan (Cep Boy),KARBON KİTAPLAR,Sabahattin Ali,7.0,2.9,352,1239, Roman (yerli),5,30
+Serenad (Karton Kapak),DOĞAN KİTAP,Zülfü Livaneli,34.5,23.46,484,32660, Roman (yerli),5,3776
+Öykünün Bahçesi,CAN YAYINLARI KAMPANYA,Semih Gümüş,22.5,10.13,216,582, İnceleme,4,37
+Sunum Sırları,NTV YAYINLARI,Martin Manser,14.77,7.38,127,1139, İş Dünyası,4,59
+Küresel Isınma Atlası,NTV YAYINLARI,Frederic Denhez,16.81,8.4,82,855, Çevre & Doğa,4,68
+Yalan Yıllar,CAN YAYINLARI KAMPANYA,Can Kozanoğlu,26.5,11.93,280,1273, Anı (hatırat),4,111
+Mülakat Sırları,NTV YAYINLARI,Heather Salter,14.77,7.38,128,689, İngilizce,4,42
+Gizli Kitap,PEGASUS YAYINLARI,Gregory Samak,32.41,20.42,208,1211, Roman (çeviri),4,74
+Genç Werther'in Acıları (Cep Boy),KARBON KİTAPLAR,Goethe,7.0,2.9,144,1189, Hikaye (çeviri),5,37
+Darağacı Avı,CAN YAYINLARI KAMPANYA,Osman Şahin,14.0,6.3,112,491, Hikaye (yerli),5,37
+Saatleri Ayarlama Enstitüsü,DERGAH YAYINLARI,Ahmet Hamdi Tanpınar,40.0,28.0,382,33993, Roman (yerli),5,3489
+Mecburiyet,TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Stefan Zweig,6.0,3.9,50,23420, Hikaye (çeviri),5,2341
+The Little Prince,KARBON KİTAPLAR,Antoine De Saint Exupery,7.41,4.37,118,11266, İngilizce,5,1046
+Evlilik Ahlakı / Muhteşem Ahlak Serisi 1,SİYER YAYINLARI,Muhammed Emin Yıldırım,12.5,7.81,180,1958, Kültür,5,43
+Başarılı Olmanın Yolları,NTV YAYINLARI,Yaman Törüner,20.37,10.0,200,575, Kişisel Gelişim,4,28
+Gazap Üzümleri,SEL YAYINCILIK,John Steinbeck,40.0,27.2,556,10569, İngilizce,5,1063
+Dava (Cep Boy),KARBON KİTAPLAR,Franz Kafka,7.0,2.9,272,796, Roman (çeviri),5,26
+Hayat Işığım (Film Özel Baskısı),PEGASUS YAYINLARI,M. L. Stedman,36.94,23.27,360,1310, Roman (çeviri),5,64
+Kral Kaybederse,REMZİ KİTABEVİ,Dr. Gülseren Budayıcıoğlu,37.04,24.08,384,7146, Roman (yerli),5,388
+Temeraire Serisi Takım Set (4 Kitap),PEGASUS YAYINLARI,Naomi Novik,147.76,30.0,1592,300, Bilimkurgu-Fantazya,4,15
+Aylak Adam,CAN YAYINLARI,Yusuf Atılgan,16.0,10.4,192,12375, Roman (yerli),4,950
+İnce Memed 1,YAPI KREDİ YAYINLARI,Yaşar Kemal,34.0,20.06,436,20133, Roman (yerli),5,2010
+Martin Eden,TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Jack London,25.0,16.25,520,8823, İngilizce,5,1187
+Kürk Mantolu Madonna (Cep Boy),KARBON KİTAPLAR,Sabahattin Ali,7.0,2.9,212,819, Roman (yerli),5,21
+Serbest Düşüş,CAN YAYINLARI KAMPANYA,Nilüfer Kuyaş,24.5,9.19,248,541, Roman (yerli),4,40
+Bitik,CAN YAYINLARI KAMPANYA,Mehmet Anıl,23.5,10.58,240,416, Roman (yerli),4,29
+İyi Hissetmek,PSİKONET YAYINLARI,Dr. David Burns,35.0,24.5,404,32067, İngilizce,5,1517
+Olağanüstü Bir Gece,KARBON KİTAPLAR,Stefan Zweig,7.41,4.0,53,4234, Hikaye (çeviri),4,220
+İnsan Neyle Yaşar?,KARBON KİTAPLAR,Lev N. Tolstoy,8.33,4.96,66,6876, Rusça,5,621
+Saray'dan Saray'a Türkiye'de Gazetecilik Masalı,CAN YAYINLARI KAMPANYA,Ümit Alan,31.0,13.95,336,397, İletişim-Medya,4,21
+Harry Potter ve Felsefe Taşı,YAPI KREDİ YAYINLARI,J. K. Rowling,25.0,17.0,274,242866, İngilizce,5,2305
+Çizgili Pijamalı Çocuk,TUDEM YAYINEVİ,John Boyne,30.0,18.0,208,15555, İngilizce,5,1003
+İtiraflarım (Cep Boy),KARBON KİTAPLAR,Lev N. Tolstoy,7.0,2.89,100,867, Genel,5,27
+Yüzbaşının Kızı (Cep Boy),KARBON KİTAPLAR,Alexandr Sergeyeviç Puşkin,7.0,2.9,170,959, Roman (çeviri),5,49
+Kardeşimin Hikayesi (Karton Kapak),DOĞAN KİTAP,Zülfü Livaneli,26.85,19.6,330,30491, Roman (yerli),5,3678
+Karamazov Kardeşler (Ciltsiz),TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Fyodor Mihayloviç Dostoyevski,27.78,18.06,1008,16573, Rusça,5,1927
+Çavdar Tarlasında Çocuklar,YAPI KREDİ YAYINLARI,J. D. Salinger,16.0,10.88,198,35141, İngilizce,4,3732
+Havaalanında Satılmayan Kitaplar,CAN YAYINLARI KAMPANYA,Başar Başarır,24.5,10.86,256,546, Hikaye (yerli),4,61
+Küçük Prens (Cep Boy),KARBON KİTAPLAR,Antoine De Saint Exupery,7.0,2.9,117,149561, Hikaye, Roman & Masal,5,43
+Telesafir & Anılarla Türk Televizyonculuğu,NTV YAYINLARI,Halit Kıvanç,20.37,10.18,216,1678, İletişim-Medya,4,148
+Kuyucaklı Yusuf (Cep Boy),KARBON KİTAPLAR,Sabahattin Ali,7.0,2.9,293,865, Roman (yerli),5,27
+Çetin Ceviz ve Mucide,FOM KİTAP,Sinan Yaşar,18.0,11.34,96,824966, Hikaye, Roman & Masal,5,35
+Kendine Ait Bir Oda (Cep Boy),KARBON KİTAPLAR,Virginia Woolf,7.0,2.9,148,667, Deneme (çeviri),5,23
+Don Kişot (Karton Kapak),YAPI KREDİ YAYINLARI,Miguel de Cervantes Saavedra,16.0,9.6,292,541412, İspanyolca,5,330
+Semerkant,YAPI KREDİ YAYINLARI,Amin Maalouf,28.0,19.04,318,34451, Fransızca,5,3635
+Ermiş,KARBON KİTAPLAR,Halil Cibran,8.33,4.5,75,4608, Doğu Felsefesi,4,277
+Öteki Kabuslar,CAN YAYINLARI KAMPANYA,Yiğit Bener,15.0,6.75,128,437, Hikaye (yerli),4,30
+Dervişin Teselli Koleksiyonu & Doğu'dan Batı'dan 99 Teselli,HAYY KİTAP,Mecit Ömür Öztürk,30.0,16.5,344,13829, Filozoflar-Düşünürler,5,453
+Ay'ı Kim Çaldı?,YAPI KREDİ YAYINLARI,Helen Stratton Would,9.0,5.41,40,381545, Hikaye,5,794
+Morgue Sokağı Cinayetleri (Cep Boy),KARBON KİTAPLAR,Edgar Allan Poe,7.0,2.9,75,518,,5,15
+Halep,CAN YAYINLARI KAMPANYA,Serhat Öztürk,16.67,7.5,176,463, Diğer,4,38
+Beni Akkuyu'larda Merdivensiz Bıraktın & Türkiye'nin Nükleerle İmtihanı,CAN YAYINLARI KAMPANYA,Filiz Yavuz,23.5,10.58,232,321, Çevre & Doğa,5,10
+Nasip Niyete Vurgundur,OLİMPOS YAYINLARI,Ethem Emin Nemutlu,20.0,11.0,160,3291, Deneme (yerli),5,90
+Puslu Kıtalar Atlası,İLETİŞİM YAYINLARI,İhsan Oktay Anar,30.0,19.12,238,28121, Roman (yerli),5,3022
+Hayata Dön,REMZİ KİTABEVİ,Dr. Gülseren Budayıcıoğlu,37.04,24.0,400,8431, Genel,5,435
+Harry Potter ve Sırlar Odası,YAPI KREDİ YAYINLARI,J. K. Rowling,30.0,18.6,314,187946, İngilizce,5,1699
+TYT Matematik Soru Bankası,ÜÇ DÖRT BEŞ YAYINCILIK,Mehmet Kıvrak,68.0,41.51,416,5294, YKS TYT - Temel Yeterlilik Testi,5,242
+Pus,PEGASUS YAYINLARI,Karin Fossum,36.94,23.27,336,859, Roman (çeviri),4,39
+Romeo ve Juliet (Karton Kapak),TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,William Shakespeare,12.0,7.8,133,10087, İngilizce,5,984
+Savaş Sanatı (Karton Kapak),TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Sun Tzu,8.0,5.2,53,14097, Çince,5,1390
+Devlet (Ciltsiz),TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Platon(Eflatun),12.96,8.42,372,21748, Eski Yunanca,5,1803
+Can Veren Pervaneler,BABIALİ KÜLTÜR YAYINCILIĞI,Hayati İnanç,25.93,14.51,210,6608, Divan Edebiyatı,5,400
+Değirmen,YAPI KREDİ YAYINLARI,Sabahattin Ali,8.0,5.12,137,25019, Hikaye (yerli),5,2425
+Yetişin Çocuklar & Bebeklikten Ergenliğe Çocuk Yetiştirme Kılavuzu,DOĞAN KİTAP,Prof. Dr. Selçuk R. Şirin,28.7,19.52,224,6032, Çocuk Psikolojisi,5,102
+Osmanlı Devleti’nin Kısa Sosyal Tarihi,TİMAŞ YAYINLARI,Prof. Dr. Kemal H. Karpat,35.0,23.8,256,256, Sosyal Tarih,5,11
+Pal Sokağı Çocukları,YAPI KREDİ YAYINLARI,Ferenc Molnar,16.0,9.44,244,24810, Macarca,5,1439
+Bağırmayan Anneler,HAYY KİTAP,Hatice Kübra Tongar,24.07,13.12,176,48373, Annelik-Babalık-Aile,4,2116
+Toprağın Öptüğü Çocuklar & Adaleti Beklerken Roboski,CAN YAYINLARI KAMPANYA,Sibel Oral,24.5,11.03,245,339, Araştırma-İnceleme,4,22
+Acemi Eğitimi,CAN YAYINLARI KAMPANYA,Can Kozanoğlu,24.5,12.25,256,598, Anı (hatırat),4,55
+Bir Kadının Yaşamından Yirmi Dört Saat,TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Stefan Zweig,8.0,5.2,80,29839, Almanca,5,3208
+Kesik Hava,CAN YAYINLARI KAMPANYA,Murat Yalçın,17.0,7.65,160,492, Hikaye (yerli),4,40
+Küçük Prens,CAN ÇOCUK YAYINLARI,Antoine De Saint Exupery,9.5,6.17,112,876616, Fransızca,5,9191
+Palto (Cep Boy),KARBON KİTAPLAR,Nikolay Vasilievich Gogol,7.0,2.9,58,731, Hikaye (çeviri),5,28
+Kürk Mantolu Madonna,KARBON KİTAPLAR,Sabahattin Ali,9.26,5.33,177,7101, Roman (yerli),5,461
+Tutunamayanlar / Bütün Eserleri 1,İLETİŞİM YAYINLARI,Oğuz Atay,50.0,33.0,724,38208, Roman (yerli),5,4175
+Gurur ve Önyargı (Ciltsiz),TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Jane Austen,20.0,13.0,424,25455, İngilizce,5,2802
+Sofie'nin Dünyası Felsefe Tarihi Üzerine Bir Roman,PAN YAYINCILIK,Jostein Gaarder,40.0,25.19,591,22447, Norveççe,5,1861
+Kızıl Elma (Cep Boy),KARBON KİTAPLAR,Ziya Gökalp,7.0,2.9,164,606, Şiir (yerli),5,19
+Genç Werther'in Acıları (Ciltsiz),TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Johann Wolfgang Goethe,12.0,7.8,126,13711, Almanca,5,1605
+Görünmez Adam (Cep Boy),KARBON KİTAPLAR,Herbert George Wells,7.0,2.9,212,793, Roman (çeviri),5,38
+İllegal Düzenin İmparatorluğu Baronlar,LOPUS,Ahmet Han,28.0,16.8,280,1081,,5,13
+Dedemin Bakkalı,TAZE KİTAP,Şermin Yaşar,35.0,22.05,200,31816, Hikaye,5,2057
+Oblomov (Ciltsiz),TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,İvan Gonçarov,26.0,16.9,632,10031, Rusça,5,1317
+Harry Potter ve Azkaban Tutsağı,YAPI KREDİ YAYINLARI,J. K. Rowling,35.0,21.0,396,161206, İngilizce,5,1490
+Üç Tarz-ı Siyaset,KARBON KİTAPLAR,Yusuf Akçura,9.0,5.85,112,153, Siyasal Tarih,4,7
+Güneşi Uyandıralım,CAN YAYINLARI,Jose Mauro De Vasconcelos,29.5,19.17,272,280586, Portekizce,5,2606
+Küçük Kara Balık (Cep Boy),KARBON KİTAPLAR,Samed Behrengi,7.0,2.9,48,740, Hikaye,5,22
+Sonsuzluğun Sonu,MONOKL YAYINLARI,Isaac Asimov,27.0,16.2,240,2223, İngilizce,5,243
+Kadın Beyni Erkek Beyni,ELMA YAYINEVİ,Serkan Karaismailoğlu,29.0,18.65,224,6493, Kişisel Gelişim,5,437
+Sen Olmadan Ben,PEGASUS YAYINLARI,Kelly Rimmer,36.94,21.0,336,756, Roman (çeviri),5,38
+Göl,PEGASUS YAYINLARI,Karin Fossum,32.41,20.09,304,740, Polisiye,4,26
+Altıncı Koğuş (Cep Boy),KARBON KİTAPLAR,Anton Çehov,7.0,2.9,90,522, Hikaye (çeviri),5,15
+Görmek,KIRMIZI KEDİ YAYINEVİ,Jose Saramago,30.0,19.5,324,11374, Roman (çeviri),5,878
+İnsanın Anlam Arayışı,OKUYAN US YAYIN,Viktor Emil Frankl,32.0,19.18,170,14423, Genel,5,801
+Kur’an ile Aldatmak & İslam’a Kurulan Pusu,KIRMIZI KEDİ YAYINEVİ,Cemil Kılıç,30.0,19.5,272,592, Diğer,4,35
+Monsieur ya da Karanlıklar Prensi / Avignon Beşlisi 1,CAN YAYINLARI KAMPANYA,Lawrence Durrell,31.0,13.95,320,377, İngilizce,5,33
+Üç Kedi Bir Dilek,YAPI KREDİ YAYINLARI,Sara Şahinkanat,24.0,14.44,32,382107, Hikaye,5,1285
+Dönüşüm (Cep Boy),KARBON KİTAPLAR,Franz Kafka,7.0,2.9,78,695, Roman (çeviri),5,24
+Denemeler / Montaigne (Ciltsiz),TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Michel de Montaigne,12.96,8.42,314,15177, Fransızca,5,1380
+Bir Kadının Hayatından Yirmi Dört Saat (Cep Boy),KARBON KİTAPLAR,Stefan Zweig,7.0,2.9,80,670, Roman (çeviri),5,17
+Lyon’da Düğün,TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Stefan Zweig,7.0,4.55,56,7645, Roman (çeviri),5,757
+Yeraltından Notlar,KARBON KİTAPLAR,Fyodor Mihayloviç Dostoyevski,9.26,5.09,128,2428, Roman (çeviri),5,127
+Son Ada,DOĞAN KİTAP,Zülfü Livaneli,22.5,15.3,200,17761, Roman (yerli),5,2017
+Araba Sevdası (Cep Boy),KARBON KİTAPLAR,Recaizade Mahmut Ekrem,7.0,2.9,259,444, Roman (yerli),5,13
+Ermiş,TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Halil Cibran,8.0,5.2,56,18180, Doğu Felsefesi,4,2061
+Flora Banks’in Tek Anısı,PEGASUS YAYINLARI,Emily Barr,35.19,20.76,312,722, Roman (çeviri),4,17
+Mustafa Kemal,KIRMIZI KEDİ YAYINEVİ,Yılmaz Özdil,32.41,21.06,520,54931, Mustafa Kemal Atatürk,4,3160
+Dergah Edebiyat Sanat Kültür Dergisi Sayı:353 Temmuz 2019,DERGAH YAYINLARI - DERGİ,,7.0,5.5,0,3618, Kültür ve Sanat Dergileri,5,151
+Harry Potter ve Ateş Kadehi,YAPI KREDİ YAYINLARI,J. K. Rowling,44.0,27.28,664,141256, İngilizce,5,1292
+Livia Ya Da Diri Diri Gömülmek / Avignon Beşlisi 2,CAN YAYINLARI KAMPANYA,Lawrence Durrell,23.5,10.58,240,339, İngilizce,4,24
+Bütün-Beyinli Çocuk,KORİDOR YAYINCILIK,Dan Siegel , Tina Payne Bryson,25.0,16.9,249,10924, İngilizce,5,473
+Sokrates'in Savunması (Karton Kapak),TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Platon(Eflatun),12.0,7.8,200,12165, Eski Yunanca,5,1014
+Bir Kalbin Çöküşü (Cep Boy),KARBON KİTAPLAR,Stefan Zweig,7.0,2.9,37,587, Hikaye (çeviri),5,19
+Öteki (Cep Boy),KARBON KİTAPLAR,Fyodor Mihayloviç Dostoyevski,7.0,2.9,191,414, Roman (çeviri),5,18
+Çetin Ceviz & Sıra Dışı Bir Ödev Hikayesi,FOM KİTAP,Sinan Yaşar,15.0,9.45,64,10251, Roman,5,228
+Veronika Ölmek İstiyor,CAN YAYINLARI,Paulo Coelho,25.5,16.06,198,17750, Portekizce,5,1657
+Mutlu Su Aygırı,TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Richard Edwards , Carol Liddiment,10.0,6.5,31,148806, Hikaye, Roman & Masal,5,797
+Kendime Ait Görünmez Bir İşaret,CAN YAYINLARI KAMPANYA,Aimee Bender,23.5,10.0,256,910, İngilizce,4,85
+İnce Memed 2,YAPI KREDİ YAYINLARI,Yaşar Kemal,35.0,21.0,459,11109, Roman (yerli),5,1063
+Başlangıç,ALTIN KİTAPLAR,Dan Brown,45.0,22.05,536,35550, Roman (çeviri),5,3161
+Kral Şakir 1 / Tek Kişilik Dev Orkestra! (Ciltli),EKSİK PARÇA ÇOCUK,Varol Yaşaroğlu,32.0,19.2,208,979461, Hikaye, Roman & Masal,5,284
+Madalyonun İçi,REMZİ KİTABEVİ,Dr. Gülseren Budayıcıoğlu,37.04,25.19,383,5652, Genel,5,299
+Evernight Akademisi Serisi Takım Set (5 Kitap),PEGASUS YAYINLARI,Claudia Gray,168.53,30.0,1632,207, Edebiyat,4,10
+Dublörün Dilemması,APRIL YAYINCILIK,Murat Menteş,26.0,17.88,272,3069, Roman (yerli),5,432
+Sivrisinek Şehirde,DEDALUS KİTAP,Erlom Ahvlediani,22.0,13.5,192,536, Roman (çeviri),4,26
+Harry Potter ve Melez Prens,YAPI KREDİ YAYINLARI,J. K. Rowling,35.0,21.7,594,119066, İngilizce,5,1048
+Dokuzuncu Hariciye Koğuşu,ÖTÜKEN NEŞRİYAT,Peyami Safa,0.0,8.33,112,32691, Roman (yerli),5,2640
+Delifişek,CAN YAYINLARI,Jose Mauro De Vasconcelos,13.0,8.45,88,22590, Portekizce,5,2105
+Yüzyıllık Yalnızlık (Ciltsiz),CAN YAYINLARI,Gabriel Garcia Marquez,42.0,27.3,464,37381, İspanyolca,4,4255
+Anna Karenina (Ciltsiz),TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Lev N. Tolstoy,38.0,24.66,1062,9386, Rusça,5,1124
+Her Şey Değişir & Ritüeller Kitabı,DESTEK YAYINLARI,Anette Inselberg,24.0,18.0,256,1785, Kişisel Gelişim,5,17
+Kahraman Doktor İhtiyar Acuzeye Karşı & Geç Osmanlı Doğum Politikaları,CAN YAYINLARI KAMPANYA,Gülhan Erkaya Balsoy,24.5,11.03,256,662, Kadın Kitapları,4,46
+Sebastian ya da Güçlü Tutkular / Avignon Beşlisi 4,CAN YAYINLARI KAMPANYA,Lawrence Durrell,19.0,9.5,192,320, İngilizce,5,19
+Kumarbaz (Karton Kapak),TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Fyodor Mihayloviç Dostoyevski,13.0,8.45,192,10029, Rusça,5,1173
+Beyinde Ararken Bağırsakta Buldum,ELMA YAYINEVİ,Serkan Karaismailoğlu,32.0,20.58,288,8963, Popüler Kültür,5,522
+Satranç,KARBON KİTAPLAR,Stefan Zweig,8.33,4.58,58,5733, Roman (çeviri),5,598
+Ay'a Yolculuk (Cep Boy),KARBON KİTAPLAR,Jules Verne,7.0,2.9,210,553612, Hikaye, Roman & Masal,5,25
+Evvel Zaman İçinde,PEGASUS YAYINLARI,Tom McNeal,36.94,23.27,360,526, Bilimkurgu-Fantazya,5,24
+Korku (Cep Boy),KARBON KİTAPLAR,Stefan Zweig,7.0,2.9,81,484, Hikaye (çeviri),5,20
+Günahın Üç Rengi & Madalyonun Öteki Yüzü,REMZİ KİTABEVİ,Dr. Gülseren Budayıcıoğlu,28.0,19.04,286,3964, Diğer,5,201
+Göğe Bakma Durağı,YAPI KREDİ YAYINLARI,Turgut Uyar,8.0,5.12,112,30508, Şiir (yerli),5,2505
+Amok Koşucusu (Cep Boy),KARBON KİTAPLAR,Stefan Zweig,7.0,2.9,63,601, Hikaye (çeviri),5,23
+Saklı Seçilmişler & Siz Onları Değil, Onlar Sizi Seçti,KIRMIZI KEDİ YAYINEVİ,Soner Yalçın,35.0,22.75,504,26609, Araştırma-İnceleme,5,1409
+Dokuz Peruklu Kız,PEGASUS YAYINLARI,Sophie Van Der Stap,32.41,20.42,272,664, Anı (hatırat),4,44
+Köpek Sahibinin El Kitabı,NTV YAYINLARI,Sam Stall , David Brunner,24.95,12.48,224,572, Hayvanlar,5,29
+Sürüş Becerileri & Motosikletçinin El Kitabı,NTV YAYINLARI,Mark Lindemann,28.01,13.95,96,1874, İngilizce,4,126
+Harry Potter ve Zümrüdüanka Yoldaşlığı,YAPI KREDİ YAYINLARI,J. K. Rowling,55.0,34.1,975,129866, İngilizce,5,1155
+Harry Potter ve Ölüm Yadigarları,YAPI KREDİ YAYINLARI,J. K. Rowling,48.0,29.76,690,118476, İngilizce,5,1050
+Beyaz Geceler (Karton Kapak),TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Fyodor Mihayloviç Dostoyevski,12.0,7.8,218,4873, Rusça,5,537
+Beyaz Geceler (Cep Boy),KARBON KİTAPLAR,Fyodor Mihayloviç Dostoyevski,7.0,2.9,88,522, Roman (çeviri),5,23
+Siddhartha (Ciltsiz),CAN YAYINLARI,Hermann Hesse,19.0,12.35,152,16280, Almanca,5,1690
+Bir Milyon Sevgi Dolu Mektup,PEGASUS YAYINLARI,Jodi Ann Bickley,32.41,20.42,240,515, Kişisel Gelişim,5,15
+Bitmeyecek Öykü,PEGASUS YAYINLARI,Michael Ende,36.94,18.1,512,2635, Bilimkurgu-Fantazya,5,218
+Paradan Haber Ver!,NTV YAYINLARI,Esteve Calzada,24.95,12.48,208,517, Pazarlama-Satış,4,40
+Türkleşmek, İslamlaşmak, Muasırlaşmak (Cep Boy),KARBON KİTAPLAR,Ziya Gökalp,7.0,2.9,96,551, Siyasal Düşünce,5,14
+Satranç (Cep Boy),KARBON KİTAPLAR,Stefan Zweig,7.0,2.9,72,513, Roman (çeviri),5,15
+Deniz Feneri (Cep Boy),KARBON KİTAPLAR,Virginia Woolf,7.0,2.9,256,472, Roman (çeviri),5,20
+Türkçülüğün Esasları (Cep Boy),KARBON KİTAPLAR,Ziya Gökalp,7.0,2.9,191,618, Siyasal Düşünce,5,22
+İnsan Olmak,METİS YAYINLARI,Engin Geçtan,22.5,15.53,184,12064, Psikolojik Danışma,5,646
+Geçmişe Yolculuk,TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Stefan Zweig,7.0,4.55,56,8081, Hikaye (çeviri),5,786
+Hamlet (Ciltsiz),TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,William Shakespeare,12.0,7.8,188,11205, İngilizce,5,1099
+Başka Türlü Bi’şey,PEGASUS YAYINLARI,Sandy Hall,32.41,20.42,240,561, Roman (çeviri),5,31
+Bu Ülke,İLETİŞİM YAYINLARI,Cemil Meriç,37.0,24.79,339,23304, Sosyoloji Yazıları,5,2229
+Başkasının Karısı (Cep Boy),KARBON KİTAPLAR,Fyodor Mihayloviç Dostoyevski,7.0,2.9,72,376, Hikaye (çeviri),5,10
+Masumiyet Müzesi,YAPI KREDİ YAYINLARI,Orhan Pamuk,40.0,25.19,465,11161, Roman (yerli),4,1016
+Kendine Hoş Geldin,OLİMPOS YAYINLARI,Miraç Çağrı Aktaş,22.0,12.1,160,96, Deneme (yerli),2,10
+Aşkımumya İma Kılavuzu,CAN YAYINLARI KAMPANYA,Murat Yalçın,23.5,10.58,232,231, Hikaye (yerli),4,19
+Kızıl,TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Stefan Zweig,7.0,4.55,72,4834, Anlatı,5,574
+Yaşamak,JAGUAR KİTAP,Yu Hua,24.0,14.39,210,3457, Roman (çeviri),5,363
+Gazi Mustafa Kemal Atatürk,KRONİK KİTAP,Prof. Dr. İlber Ortaylı,35.0,20.98,480,47159, Mustafa Kemal Atatürk,5,3963
+Olimpiyatların Yükselişi,NTV YAYINLARI,Michael Payne,28.01,12.5,320,1052, Olimpiyatlar,4,74
+Dönüşüm,CAN YAYINLARI,Franz Kafka,7.5,4.87,104,40737, Almanca,5,6296
+Kral Şakir 5 / Dostum Bu Çok Havalı!,EKSİK PARÇA ÇOCUK,Varol Yaşaroğlu,32.0,19.2,208,9558, Hikaye,4,281
+Sınır,PEGASUS YAYINLARI,J. D. Horn,36.94,21.79,312,499, Roman (çeviri),4,19
+Martı Jonathan Livingston,EPSİLON YAYINEVİ,Richard Bach,20.37,13.85,152,49189, İngilizce,5,4479
+Göçüp Gidenler Koleksiyoncusu,DOĞAN KİTAP,Şermin Yaşar,23.5,15.75,168,16096, Hikaye (yerli),5,950
+Diriliş Neslinin Amentüsü,DİRİLİŞ YAYINLARI,Sezai Karakoç,14.0,9.85,68,30076, Genel,5,2022
+Beş Sevgi Dili- Sevdiğiniz İnsana Yürekten Bağlılığınızı Nasıl İfade Edersiniz,KORİDOR YAYINCILIK,Gary Chapman,25.0,17.5,226,13263, Kişisel Gelişim,5,642
+Babaya Mektup (Cep Boy),KARBON KİTAPLAR,Franz Kafka,7.0,2.9,62,551, Mektup,5,20
+Dedemin Bakkalı - Çırak,TAZE KİTAP,Şermin Yaşar,25.0,15.74,160,16172, Hikaye,5,798
+İçimizdeki Şeytan,KARBON KİTAPLAR,Sabahattin Ali,11.11,6.53,300,4265, Roman (yerli),5,225
+Kiraz Ağacı ile Aramızdaki Mesafe,TİMAŞ GENÇ,Paola Peretti,22.5,14.62,208,431712, Hikaye, Roman & Masal,5,188
+Travma,PEGASUS YAYINLARI,Agnes Hammer,34.72,21.87,304,606, Almanca,4,28
+Dünyaya Geldim Gitmeye,TURKUVAZ KİTAP,Dr. Kemal Sayar , Sadettin Ökten,30.0,24.0,288,88,,5,1
+Bir Köy Hekimi (Cep Boy),KARBON KİTAPLAR,Franz Kafka,7.0,2.9,68,467, Hikaye (çeviri),5,22
+Formula 1 2006 Sezon Değerlendirmesi (Ciltli),NTV YAYINLARI,Kollektif,33.61,16.8,256,972, Genel,5,73
+Ay Işığı Sokağı (Cep Boy),KARBON KİTAPLAR,Stefan Zweig,7.0,2.9,94,507, Hikaye (çeviri),5,18
+English Grammar Today (Türkçe Açıklamalı),MK PUBLİCATİONS,Murat Kurt,55.0,33.55,512,7507, Dil Eğitimi,5,485
+Badeci Şeyh’in Sır Odası,KIRMIZI KEDİ YAYINEVİ,Timur Soykan,21.0,13.65,224,848,,4,25
+Dirilt Kalbini,TİMAŞ YAYINLARI,Nouman Ali Khan,25.0,17.0,224,36982, Kişisel Gelişim,5,2749
+Sefiller (2 Cilt) - (Karton Kapak),TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Victor Hugo,52.0,33.8,1724,10022, Fransızca,5,1265
+Babamın Battaniyesi,YAPI KREDİ YAYINLARI,Sara Şahinkanat,26.0,16.64,40,381457, Hikaye,5,53
+Müzik Seni Çağırıyor,NTV YAYINLARI,Erdal Atabek,20.37,10.18,192,377, Genel,4,19
+Incognito & Beynin Gizli Hayatı,DOMİNGO YAYINEVİ,David Eagleman,30.0,18.9,304,13906, İngilizce,4,939
+Ulusların Düşüşü,DOĞAN KİTAP,Daron Acemoğlu , James A. Robinson,38.9,28.4,496,11790, İngilizce,5,554
+İnce Memed 3,YAPI KREDİ YAYINLARI,Yaşar Kemal,48.0,28.8,629,8632, Roman (yerli),5,811
+Böyle Söyledi Zerdüşt (Karton Kapak),TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Friedrich Nietzsche,18.0,11.7,335,6252, Almanca,5,583
+Homo Deus: Yarının Kısa Bir Tarihi,KOLEKTİF KİTAP,Yuval Noah Harari,42.59,25.55,456,18689, İnceleme-Araştırma,5,1225
+Bilinmeyen Bir Kadının Mektubu (Cep Boy),KARBON KİTAPLAR,Stefan Zweig,7.0,2.9,125,439, Roman (çeviri),5,10
+Nar Ağacı,TİMAŞ YAYINLARI,Prof. Dr. Nazan Bekiroğlu,38.5,23.1,536,35778, Roman (yerli),5,4312
+Fıtrat Pedagojisi,HAYY KİTAP,Hatice Kübra Tongar,20.37,11.1,184,30884, Çocuk Eğitimi,5,1473
+21. Yüzyıl İçin 21 Ders,KOLEKTİF KİTAP,Yuval Noah Harari,37.04,22.22,336,9480, Diğer,5,531
+Yaşlı Adam ve Deniz,BİLGİ YAYINEVİ,Ernest Hemingway , Yasemin Yener,20.0,13.2,148,13592, Roman (çeviri),5,1079
+Kara Kedi (Cep Boy),KARBON KİTAPLAR,Edgar Allan Poe,7.0,2.9,84,365, Hikaye (çeviri),5,15
+Bilinmeyen Adanın Öyküsü,KIRMIZI KEDİ YAYINEVİ,Jose Saramago,10.0,6.5,59,10403, Portekizce,4,1451
+Geliştiren Anne-Baba,REMZİ KİTABEVİ,Doğan Cüceloğlu,20.83,13.54,192,33240, Annelik-Babalık-Aile,5,1574
+İçimdeki Müzik,TİMAŞ GENÇ,Sharon M. Draper,25.0,15.75,264,15887, Edebiyat,5,835
+Sirkadiyen Beslenme,DOĞAN KİTAP,Dr. Ayşegül Çoruhlu,25.0,16.75,180,2547, Sağlıklı beslenme-Diyet,4,53
+Notre Dame'ın Kamburu (Karton Kapak),TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Victor Hugo,28.0,18.2,572,5662, Fransızca,5,598
+Peter Pan(Tam Metin) (Cep Boy),KARBON KİTAPLAR,J. M. Barrie,7.0,2.9,204,401612, Hikaye, Roman & Masal,5,14
+Mülksüzler,METİS YAYINLARI,Ursula K. Le Guin,36.5,25.18,336,10146, İngilizce,5,752
+Vişne Bahçesi (Cep Boy),KARBON KİTAPLAR,Anton Çehov,7.0,2.9,83,346, Oyun (çeviri),5,8
+Kral Şakir 2 / Macera Devam Ediyor (Ciltli),EKSİK PARÇA ÇOCUK,Varol Yaşaroğlu,32.0,19.2,216,9793, Hikaye,5,258
+Kan ve Gül & Bir Kara Dejavu,APRIL YAYINCILIK,Alper Canıgüz,20.0,13.75,216,2712, Roman (yerli),5,360
+Türk Töresi (Cep Boy),KARBON KİTAPLAR,Ziya Gökalp,7.0,2.9,116,444, Kültür Tarihi,5,16
+Ağrıdağı Efsanesi,YAPI KREDİ YAYINLARI,Yaşar Kemal,13.0,8.32,120,11568, Roman (yerli),5,1071
+On Küçük Zenci (Tam Metin),ALTIN KİTAPLAR,Agatha Christie,24.0,14.39,224,4000, Polisiye,5,331
+Tecrübe Taktiklerle Paragraf Soru Bankası Tüm Zamanların Tüm Sınavları İçin,PELİKAN YAYINLARI,Rüştü Bayındır,47.5,27.79,320,2728, Eğitime Yardımcı Kitaplar,5,117
+Sadako / ve Kağıttan Bin Turna Kuşu,BEYAZ BALİNA YAYINLARI,Eleanor Coerr,11.0,7.48,96,924630, Hikaye, Roman & Masal,5,933
+Çocuk Kalbi,TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Edmondo De Amicis,9.0,5.85,328,214686, İtalyanca,5,1037
+Nutuk-Gençler İçin Fotoğraflarla,TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Mustafa Kemal Atatürk,18.0,11.7,599,29503, Eğitici ve Kaynak Kitaplar,5,2187
+İnsancıklar,CAN YAYINLARI,Fyodor Mihayloviç Dostoyevski,12.5,8.12,184,5119, Rusça,5,558
+Ya Nasip,YEDİVEREN YAYINLARI,Osman Sungur Yeken,25.0,15.0,256,1747, Roman (yerli),5,72
+Doğunun Limanları,YAPI KREDİ YAYINLARI,Amin Maalouf,18.0,11.52,183,16539, Fransızca,5,1554
+Kral Şakir 4 / Hayat Kısa Filler Uçuyor! (Ciltli),EKSİK PARÇA ÇOCUK,Varol Yaşaroğlu,32.0,19.2,208,9318, Hikaye,5,235
+Kuafördeki Domuz ve Başka Öyküler,CAN YAYINLARI KAMPANYA,Erich Kastner,15.0,6.75,136,201, Almanca,4,7
+Genç Bir Doktorun Anıları,TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Mihail Bulgakov,12.0,7.8,168,8821, Rusça,5,1057
+Korku,KARBON KİTAPLAR,Stefan Zweig,8.33,5.25,69,1237, Hikaye (çeviri),5,87
+Hayat Ağacı,PEGASUS YAYINLARI,Dawn French,36.94,23.27,320,591, Roman (çeviri),4,29
+Dorian Gray'in Portresi (Karton Kapak),TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Oscar Wilde,19.0,12.35,272,1572, Roman (çeviri),5,138
+Kral Şakir 3 / Anlatsam Film Olur! (Ciltli),EKSİK PARÇA ÇOCUK,Varol Yaşaroğlu,32.0,19.2,208,10011, Hikaye,5,281
+Nietzsche Ağladığında,AYRINTI YAYINLARI,Irvin D. Yalom,41.67,28.33,432,14105, İngilizce,5,1351
+Doktor Ox’un Deneyi,TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Jules Verne,8.0,5.2,96,6089, Roman (çeviri),5,813
+İvan İlyiç'in Ölümü (Cep Boy),KARBON KİTAPLAR,Lev N. Tolstoy,7.0,2.9,92,82, Roman (çeviri),5,5
+Bilinçaltının Gücü,KORİDOR YAYINCILIK,Joseph Murphy,25.0,17.05,276,15798, Kişisel Gelişim,4,756
+Sabahattin Ali Cep Boy Seti (3 Kitap),KARBON KİTAPLAR,Sabahattin Ali,21.0,8.7,857,410, Roman (yerli),5,7
+Bulantı,CAN YAYINLARI,Jean Paul Sartre,28.0,18.2,264,13881, Fransızca,4,1202
+Yeni Dünya (Cep Boy),KARBON KİTAPLAR,Sabahattin Ali,7.0,2.9,164,410, Hikaye (yerli),5,16
+Canım Aliye, Ruhum Filiz,YAPI KREDİ YAYINLARI,Sabahattin Ali,11.0,6.6,160,9353, Mektup,5,1236
+Ermiş (Cep Boy),KARBON KİTAPLAR,Halil Cibran,7.0,2.9,78,415, Doğu Felsefesi,5,22
+Muhayyel Dergisi Sayı:15 Temmuz 2019,MUHAYYEL DERGİ,,10.0,5.0,80,3688, Edebiyat Dergileri,4,260
+Aç Tırtıl,MAVİBULUT YAYINCILIK,Eric Carle,26.85,15.84,32,12282, İngilizce,5,747
+Beni Ödülle Cezalandırma,DOĞAN KİTAP,Dr. Özgür Bolat,25.0,17.5,248,28923, Çocuk Bakımı,5,1538
+Yürümenin Felsefesi,KOLEKTİF KİTAP,Frederic Gros,23.15,13.89,192,2264, Genel,4,141
+Efendi İle Uşağı (Cep Boy),KARBON KİTAPLAR,Lev N. Tolstoy,7.0,2.9,72,383, Hikaye (çeviri),5,15
+Sırça Köşk (Cep Boy),KARBON KİTAPLAR,Sabahattin Ali,7.0,2.9,164,84, Hikaye (yerli),5,1
+Sherlock Holmes / Kızıl Dosya (Cep Boy),KARBON KİTAPLAR,Sir Arthur Conan Doyle,7.0,2.9,172,92, Polisiye,5,3
+İslamın Dirilişi,DİRİLİŞ YAYINLARI,Sezai Karakoç,15.0,10.56,68,13472, Genel,5,819
+Toprak Ana,ÖTÜKEN NEŞRİYAT,Cengiz Aytmatov,0.0,8.33,136,30429, Roman (yerli),5,2967
+Beyaz Gemi,ÖTÜKEN NEŞRİYAT,Cengiz Aytmatov,0.0,9.26,168,42676, Hikaye (çeviri),5,3401
+Uykucu Aslan Nasıl Uyur?,1001 ÇİÇEK KİTAPLAR,Jane Clarke,10.25,6.92,20,5955, Hikaye,5,266
+Kırmızı Saçlı Kadın,YAPI KREDİ YAYINLARI,Orhan Pamuk,18.52,11.85,204,29699, Roman (yerli),4,3616
+Korkutarak Değil Sevdirerek Din Eğitimi,HAYY KİTAP,Hatice Kübra Tongar,25.0,13.63,184,20486, Eğitim-Öğretim,5,879
+Çalıkuşu,İNKILAP KİTABEVİ,Reşat Nuri Güntekin,55.56,37.55,544,13043, Roman (yerli),5,1683
+Hitler’in Generalleri Konuşuyor & Askeri Hadiselere İlişkin Kendi Anlatımlarıyla, Alman Generallerin Zafer ve Yenilgileri 1939-45,KRONİK KİTAP,H. B. Liddel Hart,60.0,41.25,528,180, İnceleme-Araştırma,5,24
+Yakıcı Sır,TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Stefan Zweig,8.33,5.4,96,12764, Almanca,5,1622
+Çaylak İle Filozof / Ben Bir Neyim?,UĞURBÖCEĞİ YAYINLARI,Özkan Öze,15.0,9.6,128,7566, Hikaye,5,347
+Kitaplardan Korkan Çocuk,CAN ÇOCUK YAYINLARI,Susanna Tamaro,12.0,7.8,44,726030, İtalyanca,5,1154
+Zor Olsa da Hayat Devam Ediyor,DESTEK YAYINLARI,Rövşen Abdullaoğlu,24.0,18.0,272,103, Genel,5,3
+İnce Memed 4,YAPI KREDİ YAYINLARI,Yaşar Kemal,45.0,27.0,639,8028, Roman (yerli),5,723
+İyi Yürekli Dev Memo,TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Julia Donaldson,11.11,7.21,32,7842, Okul Öncesi,5,445
+Ölüm Bir Varmış Bir Yokmuş,KIRMIZI KEDİ YAYINEVİ,Jose Saramago,27.0,17.55,208,10195, Portekizce,5,1002
+Yüksek Topuklar Yüksek Umutlar,NTV YAYINLARI,Merve İnanduçar,16.81,8.4,136,1260, Edebiyat,4,72
+Babalar ve Oğullar (Ciltsiz),TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Ivan Sergeyeviç Turgenyev,14.0,9.1,264,6863, Rusça,5,817
+Bir Delinin Anı Defteri & Palto-Burun - Petersburg Öyküleri ve Fayton,TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Nikolay Vasilievich Gogol,14.0,9.1,224,7437, Rusça,5,893
+Stefan Zweig Cep Boy Seti (8 Kitap),KARBON KİTAPLAR,Stefan Zweig,56.0,23.2,615,301, Roman (çeviri),5,6
+Matilda,CAN ÇOCUK YAYINLARI,Roald Dahl,25.0,15.75,256,988536, İngilizce,5,353
+Mutlu Prens (Cep Boy),KARBON KİTAPLAR,Oscar Wilde,7.0,2.9,64,376, Roman,5,18
+Ziya Gökalp Seti (3 Kitap),KARBON KİTAPLAR,Ziya Gökalp,37.05,12.0,386,718, Şiir (yerli),5,27
+Bilinmeyen Bir Kadının Mektubu,KARBON KİTAPLAR,Stefan Zweig,8.33,4.17,104,3430, Hikaye (çeviri),4,321
+Seni Anlıyorum Çocuk,YEDİVEREN YAYINLARI,Dilek Cesur,25.0,14.99,224,8216, Annelik-Babalık-Aile,5,196
+Stefan Zweig Seti (10 Kitap),TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Stefan Zweig,71.07,46.2,777,7406, Hikaye (çeviri),5,566
+Olağanüstü Bir Gece (Cep Boy),KARBON KİTAPLAR,Stefan Zweig,7.0,2.89,63,460, Hikaye (çeviri),4,14
+Şimdi ve Sonsuza Dek,PEGASUS YAYINLARI,Lexa Hillyer,36.94,23.27,344,438, Roman (çeviri),4,11
+Mutluluk,DOĞAN KİTAP,Zülfü Livaneli,31.5,21.74,392,7122, Roman (yerli),5,761
+Olasılıksız,APRIL YAYINCILIK,Adam Fawer,35.0,23.8,475,26539, İngilizce,5,4184
+Tepetaklak,PEGASUS YAYINLARI,Alexandra Coutts,36.94,24.01,352,563, Roman (çeviri),4,24
+Charlie'nin Çikolata Fabrikası (Ciltsiz),CAN ÇOCUK YAYINLARI,Roald Dahl,21.0,13.44,208,930120, İngilizce,5,1515
+Kurtlarla Koşan Kadınlar / Vahşi Kadın Arketipine Dair Mit ve Öyküler,AYRINTI YAYINLARI,Clarissa P. Estes,50.93,34.63,544,8559, İngilizce,5,428
+Bir Kedi, Bir Adam, Bir Ölüm,DOĞAN KİTAP,Zülfü Livaneli,22.5,15.75,212,10883, Roman (yerli),5,1094
+Zor İnsanlarla Çalışma Sırları,NTV YAYINLARI,David Brown,14.77,4.87,128,2035, İş Dünyası,4,84
+Toplum Sözleşmesi (Ciltsiz),TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Jean Jacques Rousseau,13.0,8.45,136,8248, Fransızca,5,768
+Gün Olur Asra Bedel,ÖTÜKEN NEŞRİYAT,Cengiz Aytmatov,0.0,18.52,413,25793, Roman (çeviri),5,2577
+Savaş ve Barış 2 Cilt (Karton Kapak),TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Lev N. Tolstoy,50.0,32.5,1808,5391, Roman (çeviri),5,556
+Köpek Gibi Büyütülmüş Çocuk,KORİDOR YAYINCILIK,Maia Szalavitz , Bruce D. Perry,35.0,23.87,456,8140, Genel,5,435
+Tehlikeli Oyunlar / Bütün Eserleri 2,İLETİŞİM YAYINLARI,Oğuz Atay,44.0,27.87,479,16692, Roman (yerli),5,1585
+Madame Bovary (Ciltsiz),TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Gustave Flaubert,16.0,10.4,396,4388, Fransızca,5,501
+Rahel Tanrı’yla Hesaplaşıyor,TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Stefan Zweig,7.41,4.81,80,3322, Roman (çeviri),5,377
+İvan İlyiç'in Ölümü (Karton Kapak),TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Lev N. Tolstoy,10.0,6.5,100,4642, Rusça,5,627
+İntihar Cinayet,PEGASUS YAYINLARI,Keith Ablow,36.94,24.01,400,530, İngilizce,4,24
+Kendime Düşünceler (Karton Kapak),TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Marcus Aurelius,13.0,8.11,156,2628, Genel,5,165
+Fedailerin Kalesi Alamut,KORİDOR YAYINCILIK,Vladimir Bartol,39.0,26.51,510,21476, Roman (yerli),5,2595
+Öğretmenim Bir Bakar Mısın? & Öğretmen'in Gücü Üzerine,FİNAL KÜLTÜR SANAT YAYINLARI,Doğan Cüceloğlu,27.78,18.61,208,15978, Diğer,5,522
+Antrenmanlarla Matematik 1,ANTRENMAN YAYINLARI,Halil İbrahim Küçükkaya , Mehmet Girgiç , Ahmet Karakoç,61.0,36.3,352,14061, Eğitime Yardımcı Kitaplar,5,889
+Outliers (Çizginin Dışındakiler) & Bazı İnsanlar Neden Daha Başarılı Olur?,MEDİACAT KİTAPLARI,Malcolm Gladwell,34.0,23.8,244,8341, İngilizce,5,379
+Morgue Sokağı Cinayeti,CEM YAYINEVİ,Edgar Allan Poe,11.0,7.2,150,801, Hikaye (çeviri),4,26
+Ölüler Diyarı,DOĞAN KİTAP,Jean Christophe Grange,37.0,25.23,464,4865, Polisiye,5,274
+Seviyordum Hakim Bey,CAN YAYINLARI KAMPANYA,Süleyman Bulut,14.0,6.3,112,1101, Hikaye (yerli),4,95
+Fıtrat Pedagojisi 2 & Peygamberlerin Çocuk Eğitimi Metotları,HAYY KİTAP,Hatice Kübra Tongar,20.37,11.1,160,23144, Çocuk Eğitimi,5,915
+Tongue Fu /Sözlü Dövüş Sanatı,BOYNER YAYINLARI,Sam Horn,37.5,26.57,289,8195, Doğu Felsefesi,5,367
+Seni Anlıyorum Anne,YEDİVEREN YAYINLARI,Dilek Cesur,25.0,13.0,256,2111, Annelik-Babalık-Aile,5,40
+Zeytindağı,POZİTİF YAYINLARI,Falih Rıfkı Atay,13.89,9.03,176,17296, Siyasal Hayat (Türkiye),4,1480
+Kuyu ve Sarkaç (Cep Boy),KARBON KİTAPLAR,Edgar Allan Poe,7.0,2.9,68,269, Hikaye (çeviri),5,14
+Gece Uçuşu (Cep Boy),KARBON KİTAPLAR,Antoine De Saint Exupery,7.0,2.9,98,335, Roman (çeviri),5,16
+Son Söz - Gerçek Tıp Dersleri Cilt 2,YİTİK ŞİFA,Aidin Salih,45.0,33.75,368,101, Eğitim,5,3
+Rüzgarlar Hep Gençtir,DEX KİTAP,Zülfü Livaneli,25.5,17.23,224,4417, Roman (yerli),5,203
+Bütün Şiirleri Ahmet Haşim (Cep Boy),KARBON KİTAPLAR,Ahmet Haşim,7.0,2.9,172,309, Şiir (yerli),5,14
+Otuz Milyon Kelime & Çocuğunuzun Beynini Geliştirin,BUZDAĞI YAYINLARI,Dr. Dana Suskind,35.0,25.2,304,9526, Çocuk Eğitimi,5,431
+Kıyamet Koparken Park Etmek Yasaktır,PEGASUS YAYINLARI,Bryan Bliss,32.41,19.12,264,440, Roman (çeviri),4,16
+Leyla'nın Evi,DOĞAN KİTAP,Zülfü Livaneli,25.93,18.93,284,8658, Roman (yerli),5,971
+Altıncı Koğuş,KARBON KİTAPLAR,Anton Çehov,8.33,5.33,77,720, Hikaye (çeviri),5,29
+Uzun Hikaye,DERGAH YAYINLARI,Mustafa Kutlu,14.0,9.8,115,22532, Hikaye (yerli),5,1631
+Yeni Dünya,YAPI KREDİ YAYINLARI,Sabahattin Ali,8.0,5.12,124,10946, Hikaye (yerli),5,1157
+Hayalden Kaleler,TUDEM YAYINEVİ,Olivier de Solminihac,18.0,10.8,80,8483, Roman,5,4
+Devran,İLETİŞİM YAYINLARI,Selahattin Demirtaş,19.0,12.54,138,5509, Hikaye (yerli),3,524
+Can Veren Pervaneler 2,BABIALİ KÜLTÜR YAYINCILIĞI,Hayati İnanç,22.22,14.44,124,3127, Divan Edebiyatı,5,165
+Ay Işığı Sokağı,KARBON KİTAPLAR,Stefan Zweig,7.41,4.74,77,1034, Hikaye (çeviri),4,42
+Burun (Cep Boy),KARBON KİTAPLAR,Nikolay Vasilievich Gogol,7.0,2.9,85,387, Hikaye (çeviri),5,19
+Bağırmayan Çocuklar,HAYY KİTAP,Hatice Kübra Tongar,28.0,15.26,192,6784, Annelik-Babalık-Aile,4,228
+Şu Yaramaz Tavşanlar,TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Ciara Flood,12.0,7.8,36,1454, Hikaye,5,74
+Dönüşüm,KARBON KİTAPLAR,Franz Kafka,8.33,4.65,60,2937, Roman (çeviri),4,319
+Dört Sınav,DESTEK YAYINLARI,Bülent Gardiyanoğlu,29.0,21.75,328,130, Kişisel Gelişim,4,2
+Yitik Cennet,DİRİLİŞ YAYINLARI,Sezai Karakoç,22.0,15.48,144,11824, Genel,5,719
+Koşulsuz Ebeveynlik,GÖRÜNMEZ ADAM YAYINLARI,Alfie Kohn,29.63,22.52,316,5148, Rehber Kitaplar,5,198
+Çöle İnen Nur (kod39),BÜYÜK DOĞU YAYINLARI,Necip Fazıl Kısakürek,35.19,24.64,608,12234, Siyer,5,1081
+Ay'a Yolculuk,TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Jules Verne,12.0,7.8,224,595961, Hikaye, Roman & Masal,5,512
+Düşünce Gücüyle Tedavi,ALTIN KİTAPLAR,Louise L. Hay,24.0,12.46,208,9694, İngilizce,4,449
+İnci,SEL YAYINCILIK,John Steinbeck,12.96,8.81,102,8839, İngilizce,5,786
+50 Soruda Yapay Zeka,BİLİM VE GELECEK KİTAPLIĞI,Cem Say,25.0,17.05,188,2080, Popüler Bilim,5,61
+İyi Aile Yoktur,İTHAKİ YAYINLARI,Nihan Kaya,25.0,14.5,300,1658, Annelik-Babalık-Aile,5,87
+Annemin Çantası,YAPI KREDİ YAYINLARI,Sara Şahinkanat,25.0,15.0,32,581072, Hikaye, Roman & Masal,5,667
+Ben, Robot,İTHAKİ YAYINLARI,Isaac Asimov,28.0,16.24,240,2865, Bilimkurgu-Fantazya,5,320
+TYT Problematik & Matematik Problem Soruları,TONGUÇ AKADEMİ,Kollektif,0.0,32.0,208,1291, YKS TYT - Temel Yeterlilik Testi,5,60
+Gülün Adı (Ciltsiz),CAN YAYINLARI,Umberto Eco,39.5,25.67,732,12718, İtalyanca,5,1403
+Heyet 3 / Devletin Anlaşılmamış Devri,LOPUS,Halil Yaşar Kollu,26.85,16.11,304,6854, Siyasal Tarih,4,245
+Tarihsel Süreç İçinde Dünya Ekonomisi,REMZİ KİTABEVİ,Mahfi Eğilmez,23.15,14.9,208,4395, Dünya Ekonomisi,5,165
+Morgue Sokağı Cinayetleri,KARBON KİTAPLAR,Edgar Allan Poe,10.0,6.5,64,622, Hikaye (çeviri),5,34
+Fesleğen,HAYY KİTAP,Hikmet Anıl Öztekin,22.22,12.22,216,29570, Roman (yerli),4,2421
+Alkali Diyet,DOĞAN KİTAP,Dr. Ayşegül Çoruhlu,25.0,17.5,148,680, Sağlıklı beslenme-Diyet,4,10
+Müthiş Bir Şey,PEGASUS YAYINLARI,Chitra Banarjee Divakaruni,32.41,20.42,272,374, İngilizce,4,15
+Clarissa,TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Stefan Zweig,13.0,8.45,184,6063, Roman (çeviri),5,737
+Şiddetsiz İletişim,REMZİ KİTABEVİ,Marshall B. Rosenberg,25.46,16.82,264,5636, İngilizce,5,190
+Muhteşem Gatsby (Cep Boy),KARBON KİTAPLAR,F. Scott Fitzgerald,7.0,2.9,220,180, Roman (çeviri),5,9
+Gül Yetiştiren Adam,İZ YAYINCILIK,Rasim Özdenören,12.0,7.2,144,19770, Günümüz İslam Düşüncesi,5,1566
+Devlet Ana,İTHAKİ YAYINLARI,Kemal Tahir,41.0,23.78,651,7258, Roman (yerli),5,647
+Kuyruklu Yıldız Altında Bir İzdivaç (Cep Boy),KARBON KİTAPLAR,Hüseyin Rahmi Gürpınar,7.0,2.9,196,74, Roman (yerli),5,2
+Köstebek,POZİTİF YAYINLARI,Necip Hablemitoğlu,20.83,13.55,312,8475, Araştırma-İnceleme,5,519
+Snowden Dosyası,PEGASUS YAYINLARI,Luke Harding,32.41,20.42,320,522, İngilizce,5,35
+Beyaz Diş (Karton Kapak),TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Jack London,14.0,9.1,258,6619, İngilizce,5,764
+Yardımcı,PEGASUS YAYINLARI,Kathryn Stockett,36.94,24.01,608,338, Roman (çeviri),5,19
+2020 ALES Tüm Adaylar için Soru Bankası,PEGEM AKADEMİ YAYINCILIK-SINAV KİTAPLARI,Kenan Osmanoğlu , Kerem Köker,95.0,59.38,840,108, ALES,5,1
+Korku Kapanı,PEGASUS YAYINLARI,Dayna Lorentz,32.41,20.42,304,437, Roman (çeviri),4,24
+Şu Hortumlu Dünyada Fil Yalnız Bir Hayvandır (ciltsiz),ELMA YAYINEVİ,Ahmet Şerif İzgören,25.0,16.25,163,20631, Kişisel Gelişim,5,1506
+Asla Vazgeçmedim,YEDİVEREN YAYINLARI,Alişan Kapaklıkaya,28.0,16.79,288,435, Kişisel Gelişim,4,11
+İlber Ortaylı Seyahatnamesi (Kartpostal Hediyeli),KRONİK KİTAP,Prof. Dr. İlber Ortaylı,28.0,17.92,288,8991, Gezi Kitapları,5,788
+Açlık,VARLIK YAYINLARI,Knut Hamsun,18.52,13.12,160,11742, Norveççe,5,1242
+Paragrafik,TONGUÇ AKADEMİ,Kollektif,0.0,25.0,272,815, YKS TYT - Temel Yeterlilik Testi,5,35
+Gençlerle Başbaşa,YAĞMUR YAYINLARI,Ord. Prof. Dr. Ali Fuad Başgil,5.0,3.2,80,39538, Eğitici ve Kaynak Kitaplar,5,1078
+Zacharius Usta,TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Jules Verne,6.0,3.9,56,3589, Hikaye (çeviri),5,586
+Çingene (Günümüz Türkçesiyle),TÜRKİYE İŞ BANKASI KÜLTÜR YAYINLARI,Ahmet Mithat Efendi,11.0,7.14,104,136, Roman (yerli),5,14
+Beyaz Zambaklar Ülkesinde,YAKAMOZ YAYINCILIK,Grigory Petrov,12.04,5.0,224,1257, Anı (hatırat),5,81
+İknanın Psikolojisi,MEDİACAT KİTAPLARI,Robert B. Cialdini,37.0,25.53,368,9360, İngilizce,5,342
+Yaratıcı Tür & Fikirler Dünyayı Nasıl Yeniden Yaratıyor,DOMİNGO YAYINEVİ,David Eagleman , Anthony Brandt,38.0,24.32,304,669, Popüler Bilim,4,23
+Çanta,CAN YAYINLARI KAMPANYA,Jean-Claude Kaufmann,17.0,7.65,196,981, Roman (çeviri),4,69
+Kumların Kadını,MONOKL YAYINLARI,Kobo Abe,25.0,15.0,184,717, Roman (çeviri),5,70
+Tokuz Ama Açız!,DOĞAN KİTAP,Dr. Ayşegül Çoruhlu,24.5,17.15,208,6295, Sağlıklı beslenme-Diyet,5,145
+Kırmızı Çizgi,ERDEM ÇOCUK YAYINLARI,Samar Mahfouz Barraj,12.0,7.44,24,510795, Eğitici Kitaplar,5,532
+Kambur,İLETİŞİM YAYINLARI,Şule Gürbüz,15.0,10.05,92,2228, Roman (yerli),4,199
+Anayurt Oteli,CAN YAYINLARI,Yusuf Atılgan,14.0,9.1,128,6494, Roman (yerli),4,543
+Evrak Kürek & Sektörden Arkadaşlara Giriş 101,KÜSURAT YAYINLARI,Selçuk Aydemir,25.93,14.26,224,2325, Anlatı,5,132
+Yaşamak,BEYAN YAYINLARI,Cahit Zarifoğlu,20.0,13.0,230,12528, Anı (hatırat),5,1077
+Mahrem Cevaplar & Kadın - Erkek İlişkileri Üzerine,TAHLİL YAYINLARI,Nureddin Yıldız,18.0,11.52,265,3111, Diğer,5,230
+Hayatı Yeniden Keşfedin,PSİKONET YAYINLARI,Jeffrey E. Young , Janet S. Klosko,37.0,25.0,456,9678, Kişisel Gelişim,5,351
+Huzur,DERGAH YAYINLARI,Ahmet Hamdi Tanpınar,39.0,27.3,419,14174, Roman (yerli),5,1338
+Okulsuz Toplum,ŞULE YAYINLARI,Ivan Illich,20.0,11.67,141,11608, İnceleme-Araştırma,4,833
+Dört Anlaşma: Toltek Bilgelik Kitabı,ÖTESİ YAYINCILIK,Don Miguel Ruiz,14.0,9.8,122,12683, Kişisel Geliş
