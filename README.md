@@ -15,9 +15,9 @@
   2. Analysis of publishers, authors and genres
   
   
-## Progress Report
+## Report - 1
   *not added yet*
   
-## Final Report
+## Report - 2
   *not added yet*
 
